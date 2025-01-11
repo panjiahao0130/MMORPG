@@ -2,13 +2,13 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 07/05/2023 08:25:13
--- Generated from EDMX file: E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Server\GameServer\GameServer\Entities.edmx
+-- Date Created: 01/12/2025 02:32:54
+-- Generated from EDMX file: D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Server\GameServer\GameServer\Entities.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
 GO
-USE [MMORPGDATA];
+USE [ExtremeWorld];
 GO
 IF SCHEMA_ID(N'dbo') IS NULL EXECUTE(N'CREATE SCHEMA [dbo]');
 GO
@@ -86,6 +86,14 @@ CREATE TABLE [dbo].[CharacterItem] (
 );
 GO
 
+-- Creating table 'TEquipments'
+CREATE TABLE [dbo].[TEquipments] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Name] nvarchar(max)  NOT NULL,
+    [TCharacterID] int  NOT NULL
+);
+GO
+
 -- --------------------------------------------------
 -- Creating all PRIMARY KEY constraints
 -- --------------------------------------------------
@@ -111,6 +119,12 @@ GO
 -- Creating primary key on [Id] in table 'CharacterItem'
 ALTER TABLE [dbo].[CharacterItem]
 ADD CONSTRAINT [PK_CharacterItem]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'TEquipments'
+ALTER TABLE [dbo].[TEquipments]
+ADD CONSTRAINT [PK_TEquipments]
     PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 
@@ -161,6 +175,21 @@ GO
 CREATE INDEX [IX_FK_TCharacterTCharacterItem]
 ON [dbo].[CharacterItem]
     ([CharacterID]);
+GO
+
+-- Creating foreign key on [TCharacterID] in table 'TEquipments'
+ALTER TABLE [dbo].[TEquipments]
+ADD CONSTRAINT [FK_TCharacterTEquipment]
+    FOREIGN KEY ([TCharacterID])
+    REFERENCES [dbo].[Characters]
+        ([ID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_TCharacterTEquipment'
+CREATE INDEX [IX_FK_TCharacterTEquipment]
+ON [dbo].[TEquipments]
+    ([TCharacterID]);
 GO
 
 -- --------------------------------------------------

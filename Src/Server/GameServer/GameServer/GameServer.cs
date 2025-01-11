@@ -26,11 +26,11 @@ namespace GameServer
             int Port = Properties.Settings.Default.ServerPort;
             network = new NetService();
             network.Init(Port);
-            DBService.Instance.Init();
+            /*DBService.Instance.Init();
             UserService.Instance.Init();
             DataManager.Instance.Load();
             MapService.Instance.Init();
-            MapManager.Instance.Init();
+            MapManager.Instance.Init();*/
             thread = new Thread(new ThreadStart(this.Update));
 
             return true;
