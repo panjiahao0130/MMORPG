@@ -1,0 +1,110 @@
+
+2023-07-07 11:54:52,299 [1] [INFO ] [GameServer] ：Game Server Init
+2023-07-07 11:54:53,367 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-07-07 11:54:53,682 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：奥特兰
+2023-07-07 11:54:53,686 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：野外1
+2023-07-07 11:54:53,686 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：野外2
+2023-07-07 11:54:53,686 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2023-07-07 11:54:53,687 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-07-07 11:54:53,732 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-07 11:54:53,732 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-07 11:54:53,732 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-07 11:54:53,734 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-07 11:54:53,732 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-07 11:54:53,736 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-07 11:54:53,732 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-07 11:54:53,774 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-07 11:54:53,811 [1] [WARN ] [GameServer] ：NetService Started
+2023-07-07 11:55:06,437 [3] [WARN ] [GameServer] ：Client[127.0.0.1:26472]] Connected
+2023-07-07 11:55:06,494 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-07 11:55:06,593 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-07 11:55:11,582 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-07 11:55:11,585 [5] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>UserGameEnterRequest: characterID:{0}{:1} Map:{2}</format><args>{35, 666, 1}</args></log4net.Error>
+2023-07-07 11:55:11,635 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-07 12:04:53,640 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-07 12:20:10,659 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1083]] Connected
+2023-07-07 12:20:10,708 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-07 12:20:10,709 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-07 12:20:14,365 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-07 12:20:14,365 [5] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>UserGameEnterRequest: characterID:{0}{:1} Map:{2}</format><args>{31, 9999, 1}</args></log4net.Error>
+2023-07-07 12:20:14,383 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-07 12:21:05,416 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-07 14:32:47,852 [3] [WARN ] [GameServer] ：Client[127.0.0.1:13235]] Connected
+2023-07-07 14:32:47,898 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-07 14:32:47,899 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-07 14:32:54,095 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-07 14:32:54,096 [5] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>UserGameEnterRequest: characterID:{0}{:1} Map:{2}</format><args>{36, 12123, 1}</args></log4net.Error>
+2023-07-07 14:32:54,108 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-07 14:34:40,333 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-07 14:36:42,081 [30] [WARN ] [GameServer] ：Client[127.0.0.1:13452]] Connected
+2023-07-07 14:36:42,129 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-07 14:36:42,129 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-07 14:36:44,137 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-07 14:36:44,138 [5] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>UserGameEnterRequest: characterID:{0}{:1} Map:{2}</format><args>{31, 9999, 1}</args></log4net.Error>
+2023-07-07 14:36:44,149 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-07 14:37:02,894 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-07 14:37:30,567 [30] [WARN ] [GameServer] ：Client[127.0.0.1:13508]] Connected
+2023-07-07 14:37:30,616 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-07 14:37:30,617 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-07 14:37:32,616 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-07 14:37:32,617 [5] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>UserGameEnterRequest: characterID:{0}{:1} Map:{2}</format><args>{31, 9999, 1}</args></log4net.Error>
+2023-07-07 14:37:32,627 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-07 14:38:25,464 [30] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-07 14:39:14,010 [30] [WARN ] [GameServer] ：Client[127.0.0.1:13611]] Connected
+2023-07-07 14:39:14,058 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-07 14:39:14,058 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-07 14:39:17,155 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-07 14:39:17,156 [5] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>UserGameEnterRequest: characterID:{0}{:1} Map:{2}</format><args>{29, 1212, 1}</args></log4net.Error>
+2023-07-07 14:39:17,171 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-07 14:39:35,847 [30] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-07 14:42:41,282 [30] [WARN ] [GameServer] ：Client[127.0.0.1:13818]] Connected
+2023-07-07 14:42:41,326 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-07 14:42:41,326 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-07 14:42:43,329 [30] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-07 14:42:43,331 [5] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>UserGameEnterRequest: characterID:{0}{:1} Map:{2}</format><args>{30, 123123666, 1}</args></log4net.Error>
+2023-07-07 14:42:43,340 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-07 14:42:55,884 [30] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-07 18:53:06,673 [1] [INFO ] [GameServer] ：Game Server Init
+2023-07-07 18:53:07,726 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-07-07 18:53:08,029 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：奥特兰
+2023-07-07 18:53:08,033 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：野外1
+2023-07-07 18:53:08,033 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：野外2
+2023-07-07 18:53:08,034 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2023-07-07 18:53:08,034 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-07-07 18:53:08,077 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-07 18:53:08,077 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-07 18:53:08,077 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-07 18:53:08,080 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-07 18:53:08,080 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-07 18:53:08,081 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-07 18:53:08,081 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-07 18:53:08,081 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-07 18:53:08,183 [1] [WARN ] [GameServer] ：NetService Started
+2023-07-07 18:53:32,346 [3] [WARN ] [GameServer] ：Client[127.0.0.1:12731]] Connected
+2023-07-07 18:53:32,389 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-07 18:53:32,503 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-07 18:53:36,132 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-07 18:53:36,135 [5] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>UserGameEnterRequest: characterID:{0}{:1} Map:{2}</format><args>{31, 9999, 1}</args></log4net.Error>
+2023-07-07 18:53:36,191 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-07 18:53:53,961 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-07 18:54:55,291 [14] [WARN ] [GameServer] ：Client[127.0.0.1:12824]] Connected
+2023-07-07 18:54:55,376 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-07 18:54:55,378 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-07 18:54:57,959 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-07 18:54:57,960 [5] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>UserGameEnterRequest: characterID:{0}{:1} Map:{2}</format><args>{31, 9999, 1}</args></log4net.Error>
+2023-07-07 18:54:57,982 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-07 18:55:30,192 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-07 19:02:25,496 [15] [WARN ] [GameServer] ：Client[127.0.0.1:13327]] Connected
+2023-07-07 19:02:25,545 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-07 19:02:25,546 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-07 19:02:28,444 [28] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-07 19:02:28,445 [5] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>UserGameEnterRequest: characterID:{0}{:1} Map:{2}</format><args>{29, 1212, 1}</args></log4net.Error>
+2023-07-07 19:02:28,467 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-07 19:03:12,902 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-07 19:05:27,479 [15] [WARN ] [GameServer] ：Client[127.0.0.1:13523]] Connected
+2023-07-07 19:05:27,530 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-07 19:05:27,531 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-07 19:05:29,939 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-07 19:05:29,940 [5] [INFO ] [GameServer] ：<log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>UserGameEnterRequest: characterID:{0}{:1} Map:{2}</format><args>{29, 1212, 1}</args></log4net.Error>
+2023-07-07 19:05:29,949 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-07 19:05:43,703 [15] [WARN ] [GameServer] ：Client[] Disconnected

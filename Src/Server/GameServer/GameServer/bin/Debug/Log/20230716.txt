@@ -1,0 +1,155 @@
+
+2023-07-16 08:17:39,461 [1] [INFO ] [GameServer] ：Game Server Init
+2023-07-16 08:17:40,162 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-07-16 08:17:40,384 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：布林镇
+2023-07-16 08:17:40,388 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：落日森林入口
+2023-07-16 08:17:40,388 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：落日森林深处
+2023-07-16 08:17:40,388 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2023-07-16 08:17:40,389 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-07-16 08:17:40,428 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 08:17:40,430 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 08:17:40,430 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 08:17:40,430 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 08:17:40,430 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 08:17:40,431 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 08:17:40,430 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 08:17:40,430 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 08:17:40,497 [1] [WARN ] [GameServer] ：NetService Started
+2023-07-16 08:18:26,042 [3] [WARN ] [GameServer] ：Client[127.0.0.1:10105]] Connected
+2023-07-16 08:18:26,095 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-16 08:18:26,197 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-16 08:18:33,109 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-16 08:28:04,407 [3] [WARN ] [GameServer] ：Client[127.0.0.1:10681]] Connected
+2023-07-16 08:28:04,462 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-16 08:28:04,463 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-16 08:28:16,901 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-16 08:30:07,787 [3] [WARN ] [GameServer] ：Client[127.0.0.1:10860]] Connected
+2023-07-16 08:30:07,835 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-16 08:30:07,836 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-16 08:54:10,798 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-16 08:54:45,217 [79] [WARN ] [GameServer] ：Client[127.0.0.1:1031]] Connected
+2023-07-16 08:54:45,269 [82] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-16 08:54:45,269 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-16 08:57:51,377 [79] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-16 08:58:33,891 [79] [WARN ] [GameServer] ：Client[127.0.0.1:1241]] Connected
+2023-07-16 08:58:33,941 [79] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-16 08:58:33,941 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-16 08:58:47,337 [86] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-16 09:05:39,910 [86] [WARN ] [GameServer] ：Client[127.0.0.1:1101]] Connected
+2023-07-16 09:05:39,970 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-16 09:05:39,971 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-16 09:05:54,718 [86] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-16 09:06:48,016 [86] [WARN ] [GameServer] ：Client[127.0.0.1:1202]] Connected
+2023-07-16 09:06:48,068 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-16 09:06:48,069 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-16 09:07:23,737 [86] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-16 09:08:51,159 [86] [WARN ] [GameServer] ：Client[127.0.0.1:1060]] Connected
+2023-07-16 09:08:51,217 [86] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-16 09:08:51,218 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-16 09:21:10,682 [63] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-16 09:22:41,473 [39] [WARN ] [GameServer] ：Client[127.0.0.1:23908]] Connected
+2023-07-16 09:22:41,524 [39] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-16 09:22:41,525 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-16 09:23:05,019 [39] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-16 09:24:51,809 [33] [WARN ] [GameServer] ：Client[127.0.0.1:24067]] Connected
+2023-07-16 09:24:51,871 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-16 09:24:51,871 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-16 09:24:57,256 [33] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-16 09:26:23,212 [33] [WARN ] [GameServer] ：Client[127.0.0.1:24169]] Connected
+2023-07-16 09:26:23,266 [33] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-16 09:26:23,267 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-16 09:26:39,008 [29] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-16 09:37:29,454 [28] [WARN ] [GameServer] ：Client[127.0.0.1:1215]] Connected
+2023-07-16 09:37:29,504 [21] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-16 09:37:29,505 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-16 09:37:31,405 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-16 09:37:31,408 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:IKUN丶Ahao Map:1
+2023-07-16 09:37:31,412 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-16 09:37:33,300 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-16 09:37:33,300 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:IKUN丶Ahao Map:1
+2023-07-16 09:37:33,301 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-16 09:37:48,872 [22] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-16 09:37:48,874 [5] [INFO ] [GameServer] ：UserGameLeaveRequest : characterID:0:IKUN丶Ahao Map:1
+2023-07-16 09:37:48,991 [5] [ERROR] [GameServer] ：Message handler exception:, 给定关键字不在字典中。, mscorlib,    在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.Managers.CharacterManager.RemoveCharacter(Int32 chara) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 41
+   在 GameServer.Services.UserService.OnGameLeave(NetConnection`1 sender, UserGameLeaveRequest request) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 167
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2023-07-16 09:37:50,640 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-16 09:37:50,641 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:IKUN丶Ahao Map:1
+2023-07-16 09:37:50,641 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-16 09:38:06,188 [23] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-16 17:56:16,788 [25] [WARN ] [GameServer] ：Client[127.0.0.1:17115]] Connected
+2023-07-16 17:56:16,845 [51] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-16 17:56:16,845 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-16 17:56:42,613 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2023-07-16 17:56:42,615 [5] [INFO ] [GameServer] ：UserCharacterRequest: Name:GNR.UZI  Class:Archer
+2023-07-16 17:56:44,436 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-16 17:56:44,437 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-16 17:56:44,437 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-16 17:56:50,929 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-16 17:56:50,930 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-16 17:56:50,930 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-16 17:56:58,930 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-16 17:56:58,931 [5] [INFO ] [GameServer] ：UserGameLeaveRequest : characterID:0:GNR.UZI Map:1
+2023-07-16 17:56:58,976 [5] [ERROR] [GameServer] ：Message handler exception:, 给定关键字不在字典中。, mscorlib,    在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.Managers.CharacterManager.RemoveCharacter(Int32 chara) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 41
+   在 GameServer.Services.UserService.OnGameLeave(NetConnection`1 sender, UserGameLeaveRequest request) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 167
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2023-07-16 17:57:00,577 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-16 17:57:00,578 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-16 17:57:00,579 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-16 17:57:47,605 [25] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-16 18:14:20,468 [1] [INFO ] [GameServer] ：Game Server Init
+2023-07-16 18:14:21,105 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-07-16 18:14:21,351 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-07-16 18:14:21,382 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 18:14:21,382 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 18:14:21,382 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 18:14:21,383 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 18:14:21,383 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 18:14:21,383 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 18:14:21,383 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 18:14:21,384 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 18:14:21,461 [1] [WARN ] [GameServer] ：NetService Started
+2023-07-16 18:15:04,421 [1] [INFO ] [GameServer] ：Game Server Init
+2023-07-16 18:15:04,694 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-07-16 18:15:04,946 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：布林镇
+2023-07-16 18:15:04,949 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：落日森林入口
+2023-07-16 18:15:04,950 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：落日森林深处
+2023-07-16 18:15:04,950 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2023-07-16 18:15:04,950 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：布林镇
+2023-07-16 18:15:04,951 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：落日森林入口
+2023-07-16 18:15:04,951 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：落日森林深处
+2023-07-16 18:15:04,952 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2023-07-16 18:15:04,953 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-07-16 18:15:05,032 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 18:15:05,032 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 18:15:05,032 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 18:15:05,032 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 18:15:05,032 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 18:15:05,032 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 18:15:05,032 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 18:15:05,032 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-16 18:15:05,082 [1] [WARN ] [GameServer] ：NetService Started
+2023-07-16 18:15:25,698 [3] [WARN ] [GameServer] ：Client[127.0.0.1:18447]] Connected
+2023-07-16 18:15:25,747 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-16 18:15:25,835 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-16 18:15:30,163 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-16 18:15:30,166 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-16 18:15:30,170 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-16 18:15:32,351 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-16 18:15:32,352 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-16 18:15:32,352 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-16 18:15:48,647 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-16 18:15:48,652 [5] [INFO ] [GameServer] ：UserGameLeaveRequest : characterID:0:GNR.UZI Map:1
+2023-07-16 18:15:48,783 [5] [ERROR] [GameServer] ：Message handler exception:, 给定关键字不在字典中。, mscorlib,    在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.Managers.CharacterManager.RemoveCharacter(Int32 chara) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 41
+   在 GameServer.Services.UserService.OnGameLeave(NetConnection`1 sender, UserGameLeaveRequest request) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 167
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2023-07-16 18:15:51,302 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-16 18:15:51,303 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1003:IKUN丶Ahao Map:1
+2023-07-16 18:15:51,304 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-16 18:17:12,897 [12] [WARN ] [GameServer] ：Client[] Disconnected

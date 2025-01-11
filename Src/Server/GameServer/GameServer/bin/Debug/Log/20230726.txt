@@ -1,0 +1,179 @@
+
+2023-07-26 17:07:30,558 [1] [INFO ] [GameServer] ：Game Server Init
+2023-07-26 17:07:31,324 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-07-26 17:07:31,543 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：布林镇
+2023-07-26 17:07:31,546 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：落日森林入口
+2023-07-26 17:07:31,546 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：落日森林深处
+2023-07-26 17:07:31,546 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2023-07-26 17:07:31,547 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：布林镇
+2023-07-26 17:07:31,547 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：落日森林入口
+2023-07-26 17:07:31,547 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：落日森林深处
+2023-07-26 17:07:31,547 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2023-07-26 17:07:31,547 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-07-26 17:07:31,614 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-26 17:07:31,614 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-26 17:07:31,615 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-26 17:07:31,615 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-26 17:07:31,615 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-26 17:07:31,615 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-26 17:07:31,615 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-26 17:07:31,615 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-26 17:07:31,688 [1] [WARN ] [GameServer] ：NetService Started
+2023-07-26 17:08:00,197 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59932]] Connected
+2023-07-26 17:08:00,246 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-26 17:08:00,339 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-26 17:08:03,382 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 17:08:03,384 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 17:08:03,387 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 17:08:10,921 [12] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 17:08:10,921 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 17:08:10,922 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 17:09:03,719 [13] [WARN ] [GameServer] ：Client[127.0.0.1:60151]] Connected
+2023-07-26 17:09:03,788 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:28
+2023-07-26 17:09:03,788 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3288963145  Pass:123123
+2023-07-26 17:09:07,369 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 17:09:07,369 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1009:12 Map:1
+2023-07-26 17:09:07,370 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 17:09:09,569 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 17:09:09,570 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1009:12 Map:1
+2023-07-26 17:09:09,570 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 17:09:47,958 [13] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:1010
+2023-07-26 17:09:47,959 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-26 17:12:34,627 [15] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:1009
+2023-07-26 17:12:34,627 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-26 18:08:16,218 [1] [INFO ] [GameServer] ：Game Server Init
+2023-07-26 18:08:16,432 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-07-26 18:08:16,586 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：布林镇
+2023-07-26 18:08:16,588 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：落日森林入口
+2023-07-26 18:08:16,588 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：落日森林深处
+2023-07-26 18:08:16,588 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2023-07-26 18:08:16,588 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：布林镇
+2023-07-26 18:08:16,588 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：落日森林入口
+2023-07-26 18:08:16,589 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：落日森林深处
+2023-07-26 18:08:16,589 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2023-07-26 18:08:16,590 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-07-26 18:08:16,636 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-26 18:08:16,636 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-26 18:08:16,636 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-26 18:08:16,636 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-26 18:08:16,636 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-26 18:08:16,636 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-26 18:08:16,636 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-26 18:08:16,637 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-26 18:08:16,730 [1] [WARN ] [GameServer] ：NetService Started
+2023-07-26 18:08:35,372 [3] [WARN ] [GameServer] ：Client[127.0.0.1:63868]] Connected
+2023-07-26 18:08:35,420 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-26 18:08:35,511 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-26 18:08:37,840 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:08:37,843 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:08:37,846 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:08:38,724 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:08:38,724 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:08:38,725 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:08:42,312 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-26 18:08:42,314 [7] [INFO ] [GameServer] ：UserGameLeaveRequest : characterID:0:GNR.UZI Map:1
+2023-07-26 18:08:42,315 [7] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:1010
+2023-07-26 18:08:43,735 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:08:43,735 [8] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:08:43,735 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:08:44,369 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:08:44,370 [9] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:08:44,370 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:09:10,508 [17] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:1010
+2023-07-26 18:09:10,508 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-26 18:10:36,586 [17] [WARN ] [GameServer] ：Client[127.0.0.1:64013]] Connected
+2023-07-26 18:10:36,633 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-26 18:10:36,633 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-26 18:10:37,905 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:10:37,906 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:10:37,907 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:10:38,510 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:10:38,511 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:10:38,511 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:10:42,461 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-26 18:10:42,462 [6] [INFO ] [GameServer] ：UserGameLeaveRequest : characterID:0:GNR.UZI Map:1
+2023-07-26 18:10:42,463 [6] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:1010
+2023-07-26 18:10:43,791 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:10:43,792 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:10:43,792 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:10:44,986 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:10:44,987 [8] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:10:44,987 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:10:58,445 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-26 18:10:58,446 [5] [INFO ] [GameServer] ：UserGameLeaveRequest : characterID:0:GNR.UZI Map:1
+2023-07-26 18:10:58,446 [5] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:1010
+2023-07-26 18:11:16,161 [17] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:1010
+2023-07-26 18:11:16,162 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-26 18:17:28,754 [17] [WARN ] [GameServer] ：Client[127.0.0.1:64525]] Connected
+2023-07-26 18:17:28,803 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-26 18:17:28,803 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-26 18:17:30,921 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:17:30,922 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:17:30,922 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:17:31,316 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:17:31,316 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:17:31,317 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:17:33,741 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-26 18:17:33,742 [7] [INFO ] [GameServer] ：UserGameLeaveRequest : characterID:0:GNR.UZI Map:1
+2023-07-26 18:17:33,742 [7] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:1010
+2023-07-26 18:17:35,029 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:17:35,030 [8] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:17:35,030 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:17:35,643 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:17:35,644 [9] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:17:35,644 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:17:46,949 [17] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:1010
+2023-07-26 18:17:46,950 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-26 18:19:09,064 [17] [WARN ] [GameServer] ：Client[127.0.0.1:64665]] Connected
+2023-07-26 18:19:09,122 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-26 18:19:09,123 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-26 18:19:11,241 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:19:11,241 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:19:11,242 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:19:11,644 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:19:11,644 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:19:11,644 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:19:16,514 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-26 18:19:16,514 [7] [INFO ] [GameServer] ：UserGameLeaveRequest : characterID:0:GNR.UZI Map:1
+2023-07-26 18:19:16,514 [7] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:1010
+2023-07-26 18:19:17,840 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:19:17,840 [8] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:19:17,841 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:19:18,116 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:19:18,117 [9] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:19:18,117 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:19:56,785 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-26 18:19:56,785 [5] [INFO ] [GameServer] ：UserGameLeaveRequest : characterID:0:GNR.UZI Map:1
+2023-07-26 18:19:56,786 [5] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:1010
+2023-07-26 18:20:00,949 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:20:00,950 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1003:IKUN丶Ahao Map:1
+2023-07-26 18:20:00,950 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:20:01,562 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:20:01,563 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1003:IKUN丶Ahao Map:1
+2023-07-26 18:20:01,563 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:20:26,337 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-26 18:20:26,337 [5] [INFO ] [GameServer] ：UserGameLeaveRequest : characterID:0:IKUN丶Ahao Map:1
+2023-07-26 18:20:26,337 [5] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:1003
+2023-07-26 18:20:27,619 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:20:27,619 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:20:27,619 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:20:27,983 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:20:27,984 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:20:27,984 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:20:28,487 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-26 18:20:28,488 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1010:GNR.UZI Map:1
+2023-07-26 18:20:28,488 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:20:31,170 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-26 18:20:31,170 [7] [INFO ] [GameServer] ：UserGameLeaveRequest : characterID:0:GNR.UZI Map:1
+2023-07-26 18:20:31,171 [7] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:1010
+2023-07-26 18:20:32,471 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-26 18:20:32,472 [8] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:IKUN丶Ahao Map:1
+2023-07-26 18:20:32,472 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:20:32,821 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-26 18:20:32,822 [9] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:IKUN丶Ahao Map:1
+2023-07-26 18:20:32,823 [9] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:20:33,365 [31] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-26 18:20:33,365 [14] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:IKUN丶Ahao Map:1
+2023-07-26 18:20:33,365 [14] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-26 18:20:43,264 [31] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:1002
+2023-07-26 18:20:43,264 [31] [WARN ] [GameServer] ：Client[] Disconnected

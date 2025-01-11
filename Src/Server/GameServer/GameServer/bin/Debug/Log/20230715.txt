@@ -1,0 +1,99 @@
+
+2023-07-15 18:45:52,165 [1] [INFO ] [GameServer] ：Game Server Init
+2023-07-15 18:45:52,973 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-07-15 18:45:53,243 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：布林镇
+2023-07-15 18:45:53,245 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：落日森林入口
+2023-07-15 18:45:53,246 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：落日森林深处
+2023-07-15 18:45:53,246 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2023-07-15 18:45:53,246 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-07-15 18:45:53,253 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-15 18:45:53,255 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-15 18:45:53,255 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-15 18:45:53,303 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-15 18:45:53,303 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-15 18:45:53,304 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-15 18:45:53,303 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-15 18:45:53,305 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-15 18:45:53,365 [1] [WARN ] [GameServer] ：NetService Started
+2023-07-15 18:46:26,787 [3] [WARN ] [GameServer] ：Client[127.0.0.1:27520]] Connected
+2023-07-15 18:46:26,854 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-15 18:46:26,957 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-15 18:49:06,666 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-15 18:49:06,668 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:IKUN丶Ahao Map:1
+2023-07-15 18:49:06,672 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-15 18:49:15,458 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-15 18:49:15,458 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:IKUN丶Ahao Map:1
+2023-07-15 18:49:15,459 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-15 18:49:25,690 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-15 18:49:25,692 [5] [INFO ] [GameServer] ：UserGameLeaveRequest : characterID:0:IKUN丶Ahao Map:1
+2023-07-15 18:49:25,827 [5] [ERROR] [GameServer] ：Message handler exception:, 给定关键字不在字典中。, mscorlib,    在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.Managers.CharacterManager.RemoveCharacter(Int32 chara) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 41
+   在 GameServer.Services.UserService.OnGameLeave(NetConnection`1 sender, UserGameLeaveRequest request) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 167
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2023-07-15 18:49:27,835 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-15 18:49:27,836 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1003:IKUN丶Ahao Map:1
+2023-07-15 18:49:27,837 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-15 18:49:41,695 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2023-07-15 20:25:56,585 [1] [INFO ] [GameServer] ：Game Server Init
+2023-07-15 20:25:56,786 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2023-07-15 20:25:56,952 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：布林镇
+2023-07-15 20:25:56,954 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：落日森林入口
+2023-07-15 20:25:56,954 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：落日森林深处
+2023-07-15 20:25:56,955 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2023-07-15 20:25:56,955 [1] [WARN ] [GameServer] ：Starting Listener...
+2023-07-15 20:25:57,000 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-15 20:25:57,000 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-15 20:25:57,001 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-15 20:25:57,000 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-15 20:25:57,001 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-15 20:25:57,002 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-15 20:25:57,029 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-15 20:25:57,029 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2023-07-15 20:25:57,100 [1] [WARN ] [GameServer] ：NetService Started
+2023-07-15 20:26:16,762 [3] [WARN ] [GameServer] ：Client[127.0.0.1:32871]] Connected
+2023-07-15 20:26:16,812 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:22
+2023-07-15 20:26:16,911 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2636  Pass:123123
+2023-07-15 20:26:19,637 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-15 20:26:19,639 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:IKUN丶Ahao Map:1
+2023-07-15 20:26:19,643 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-15 20:26:24,279 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-15 20:26:24,280 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:IKUN丶Ahao Map:1
+2023-07-15 20:26:24,280 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-15 20:26:27,239 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-15 20:26:27,240 [7] [INFO ] [GameServer] ：UserGameLeaveRequest : characterID:0:IKUN丶Ahao Map:1
+2023-07-15 20:26:27,352 [7] [ERROR] [GameServer] ：Message handler exception:, 给定关键字不在字典中。, mscorlib,    在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.Managers.CharacterManager.RemoveCharacter(Int32 chara) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 41
+   在 GameServer.Services.UserService.OnGameLeave(NetConnection`1 sender, UserGameLeaveRequest request) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 167
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2023-07-15 20:26:28,888 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-15 20:26:28,888 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1002:IKUN丶Ahao Map:1
+2023-07-15 20:26:28,889 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-15 20:30:11,626 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-15 20:30:11,627 [5] [INFO ] [GameServer] ：UserGameLeaveRequest : characterID:0:IKUN丶Ahao Map:1
+2023-07-15 20:30:11,669 [5] [ERROR] [GameServer] ：Message handler exception:, 给定关键字不在字典中。, mscorlib,    在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.Managers.CharacterManager.RemoveCharacter(Int32 chara) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 41
+   在 GameServer.Services.UserService.OnGameLeave(NetConnection`1 sender, UserGameLeaveRequest request) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 167
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2023-07-15 20:30:13,560 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-15 20:30:13,561 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1003:IKUN丶Ahao Map:1
+2023-07-15 20:30:13,562 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-15 20:52:17,174 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-15 20:52:17,175 [5] [INFO ] [GameServer] ：UserGameLeaveRequest : characterID:0:IKUN丶Ahao Map:1
+2023-07-15 20:52:17,219 [5] [ERROR] [GameServer] ：Message handler exception:, 给定关键字不在字典中。, mscorlib,    在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.Managers.CharacterManager.RemoveCharacter(Int32 chara) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 41
+   在 GameServer.Services.UserService.OnGameLeave(NetConnection`1 sender, UserGameLeaveRequest request) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 167
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2023-07-15 20:52:24,763 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2023-07-15 20:52:24,763 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1003:IKUN丶Ahao Map:1
+2023-07-15 20:52:24,764 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2023-07-15 20:52:29,878 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2023-07-15 20:52:29,879 [6] [INFO ] [GameServer] ：UserGameLeaveRequest : characterID:0:IKUN丶Ahao Map:1
+2023-07-15 20:52:29,920 [6] [ERROR] [GameServer] ：Message handler exception:, 给定关键字不在字典中。, mscorlib,    在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.Managers.CharacterManager.RemoveCharacter(Int32 chara) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 41
+   在 GameServer.Services.UserService.OnGameLeave(NetConnection`1 sender, UserGameLeaveRequest request) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 167
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 E:\Daekstop\UnitySSS\MMO\MMORPG\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
