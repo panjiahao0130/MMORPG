@@ -26,9 +26,10 @@ namespace GameServer
             int Port = Properties.Settings.Default.ServerPort;
             network = new NetService();
             network.Init(Port);
-            /*DBService.Instance.Init();
+            //HelloWorldService.Instance.Init();
+            DBService.Instance.Init();
             UserService.Instance.Init();
-            DataManager.Instance.Load();
+            /*DataManager.Instance.Load();
             MapService.Instance.Init();
             MapManager.Instance.Init();*/
             thread = new Thread(new ThreadStart(this.Update));
@@ -39,6 +40,7 @@ namespace GameServer
         public void Start()
         {
             network.Start();
+            //HelloWorldService.Instance.Start();
             running = true;
             thread.Start();
         }

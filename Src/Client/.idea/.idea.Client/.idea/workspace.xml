@@ -4,28 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95993779-4002-47f7-aef1-fd6efff63be3" name="Changes" comment="unity忽略模版包含子目录">
+    <list default="true" id="95993779-4002-47f7-aef1-fd6efff63be3" name="Changes" comment="临时存一下">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/Archer.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Characters/Archer/Archer.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Levels/Loading.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Loading.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/References/Protocol.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/References/Protocol.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadingManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test/Login.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Test/Login.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UICharacterSelect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UICharacterSelect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UILogin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UILogin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIMain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIMain.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/loading_bg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/loading_bg.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lib/Common/Network/MessageDispatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lib/Common/Network/MessageDispatch.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lib/Common/bin/Debug/Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lib/Common/bin/Debug/Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lib/Common/bin/Debug/Protocol.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lib/Common/bin/Debug/Protocol.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lib/Protocol/bin/Debug/Protocol.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lib/Protocol/bin/Debug/Protocol.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lib/Protocol/bin/Debug/protobuf-net.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lib/Protocol/bin/Debug/protobuf-net.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lib/Protocol/message.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lib/Protocol/message.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lib/proto/message.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lib/proto/message.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/Entities.Context.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/Entities.Context.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/Entities.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/Entities.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/Entities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/Entities.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/Entities.edmx" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/Entities.edmx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/Entities.edmx.diagram" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/Entities.edmx.diagram" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/App.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/Entities.edmx.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/Entities.edmx.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/GameServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/GameServer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/TCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/TCharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/Services/UserSerevice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/Services/UserSerevice.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Common.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/GameServer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/GameServer.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Protocol.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Protocol.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/GameServer.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/GameServer.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Log/20250112.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Log/20250112.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a655008de92846458baa16d876fb23c4171c00/1b/850a2371/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f828f995fcfc49c2a610ceae228d818f4a00/cb/527971b2/MessageDistributer`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/WorkSpace/UnityProjects/MMORPGDemo/Src/Client/Assets/Scripts/GameObject/MainPlayerCamera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Test/Login.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Lib/Protocol/message.cs" root0="SKIP_HIGHLIGHTING" />
@@ -52,6 +52,7 @@
     <setting file="file://$PROJECT_DIR$/../Server/GameServer/GameServer/GameServer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Server/GameServer/GameServer/Network/NetService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/WorkSpace/UnityProjects/MMORPGDemo/Src/Server/GameServer/GameServer/Network/NetService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Server/GameServer/GameServer/Services/HelloWorldService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Server/GameServer/GameServer/TCharacter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/WorkSpace/UnityProjects/MMORPGDemo/Src/Server/GameServer/GameServer/TCharacter.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -65,27 +66,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\23934\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\23934\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\23934\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\23934\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\23934\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\23934\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\2022.3.0f1c1\Editor\Unity.exe" />
@@ -143,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736591291776</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="临时存一下">
+      <option name="closed" value="true" />
+      <created>1736622736881</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736622736881</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +166,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="1" />
     <MESSAGE value="unity忽略模版包含子目录" />
-    <option name="LAST_COMMIT_MESSAGE" value="unity忽略模版包含子目录" />
+    <MESSAGE value="临时存一下" />
+    <option name="LAST_COMMIT_MESSAGE" value="临时存一下" />
   </component>
 </project>

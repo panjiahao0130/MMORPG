@@ -70,3 +70,405 @@
 2025-01-12 02:52:44,247 [6] [WARN ] [GameServer] ：MessageDistribute thread end
 2025-01-12 02:52:44,247 [11] [WARN ] [GameServer] ：MessageDistribute thread end
 2025-01-12 02:52:44,348 [1] [INFO ] [GameServer] ：Game Server Exited
+2025-01-12 03:38:49,839 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-12 03:38:49,905 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-12 03:38:49,995 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 03:38:49,996 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 03:38:49,996 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 03:38:49,996 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 03:38:49,996 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 03:38:49,996 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 03:38:49,997 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 03:38:49,998 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 03:38:50,037 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-12 03:39:09,280 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55940]] Connected
+2025-01-12 03:39:10,596 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2025-01-12 03:39:32,854 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-01-12 03:40:42,163 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-12 03:40:42,230 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-12 03:40:42,374 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 03:40:42,374 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 03:40:42,374 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 03:40:42,375 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 03:40:42,375 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 03:40:42,374 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 03:40:42,375 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 03:40:42,378 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 03:40:42,474 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-12 03:40:52,973 [3] [WARN ] [GameServer] ：Client[127.0.0.1:62839]] Connected
+2025-01-12 03:40:53,966 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2025-01-12 03:40:54,145 [5] [INFO ] [GameServer] ：OnFirstTestRequest: hello worldsb
+2025-01-12 21:06:58,280 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-12 21:06:58,407 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-12 21:06:58,567 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 21:06:58,567 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 21:06:58,568 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 21:06:58,568 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 21:06:58,568 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 21:06:58,568 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 21:06:58,571 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 21:06:58,575 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 21:06:58,665 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-12 21:08:07,680 [3] [WARN ] [GameServer] ：Client[127.0.0.1:51818]] Connected
+2025-01-12 21:08:07,759 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-12 21:08:25,856 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-12 21:08:26,881 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-12 21:08:27,107 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-12 21:09:18,328 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-12 21:09:18,752 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-12 21:09:45,564 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-12 22:08:36,663 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-12 22:08:37,060 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-12 22:08:37,093 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:08:37,103 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:08:37,103 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:08:37,103 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:08:37,107 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:08:37,108 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:08:37,108 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:08:37,112 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:08:37,171 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-12 22:09:19,759 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54479]] Connected
+2025-01-12 22:09:19,812 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-12 22:09:19,940 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:pjh001  Pass:123456
+2025-01-12 22:09:37,112 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20, 基础提供程序在 Open 上失败。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) 位置 D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 86
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-01-12 22:18:15,807 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-12 22:18:16,178 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-12 22:18:16,269 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:18:16,269 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:18:16,270 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:18:16,270 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:18:16,273 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:18:16,274 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:18:16,274 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:18:16,274 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:18:16,293 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-12 22:18:49,465 [3] [WARN ] [GameServer] ：Client[127.0.0.1:57429]] Connected
+2025-01-12 22:18:49,545 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-12 22:18:49,709 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:pjh001  Pass:123456
+2025-01-12 22:19:07,039 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20, 基础提供程序在 Open 上失败。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) 位置 D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 86
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-01-12 22:31:58,324 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-12 22:31:58,879 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-12 22:31:58,924 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:31:58,924 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:31:58,924 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:31:58,925 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:31:58,925 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:31:58,925 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:31:58,953 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:31:58,952 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:31:58,989 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-12 22:32:28,394 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56600]] Connected
+2025-01-12 22:32:28,470 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-12 22:32:28,658 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:pjh001  Pass:123456
+2025-01-12 22:32:46,369 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20, 基础提供程序在 Open 上失败。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) 位置 D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 86
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-01-12 22:50:59,545 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-12 22:51:00,079 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-12 22:51:00,171 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:51:00,172 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:51:00,171 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:51:00,172 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:51:00,172 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:51:00,172 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:51:00,173 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:51:00,170 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:51:00,193 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-12 22:51:32,863 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53622]] Connected
+2025-01-12 22:51:32,935 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-12 22:51:33,123 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:pjh001  Pass:123456
+2025-01-12 22:51:50,701 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20, 基础提供程序在 Open 上失败。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) 位置 D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 86
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-01-12 22:55:55,654 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-12 22:55:55,976 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-12 22:55:56,025 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:55:56,025 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:55:56,026 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:55:56,061 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:55:56,062 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:55:56,061 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:55:56,062 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:55:56,063 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 22:55:56,124 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-12 22:56:29,075 [3] [WARN ] [GameServer] ：Client[127.0.0.1:60523]] Connected
+2025-01-12 22:56:29,175 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-12 22:56:29,351 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:pjh001  Pass:123456
+2025-01-12 22:56:46,820 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: SQL Network Interfaces, error: 26 - 定位指定的服务器/实例时出错)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20, 基础提供程序在 Open 上失败。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) 位置 D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 86
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-01-12 23:01:04,658 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-12 23:02:04,886 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-12 23:02:04,979 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:02:04,980 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:02:04,980 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:02:04,980 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:02:04,981 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:02:04,982 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:02:04,979 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:02:04,979 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:02:04,989 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-12 23:07:13,774 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-12 23:07:14,085 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-12 23:07:14,154 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:07:14,155 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:07:14,155 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:07:14,155 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:07:14,156 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:07:14,156 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:07:14,156 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:07:14,160 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:07:14,192 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-12 23:07:45,972 [3] [WARN ] [GameServer] ：Client[127.0.0.1:49811]] Connected
+2025-01-12 23:07:46,058 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-12 23:07:46,230 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:pjh001  Pass:123456
+2025-01-12 23:08:04,124 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 拒绝访问。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:5,State:0,Class:20, 基础提供程序在 Open 上失败。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) 位置 D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 86
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-01-12 23:26:07,910 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-12 23:26:08,317 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-12 23:26:08,359 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:26:08,359 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:26:08,360 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:26:08,360 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:26:08,361 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:26:08,361 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:26:08,362 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:26:08,364 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:26:08,425 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-12 23:26:33,613 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54317]] Connected
+2025-01-12 23:26:33,670 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-12 23:26:33,809 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:pjh001  Pass:123456
+2025-01-12 23:26:34,069 [5] [ERROR] [GameServer] ：Message handler exception:System.ArgumentException: 不支持关键字: “userid”。
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.SetConnectionString(DbConnection connection, DbConnectionPropertyInterceptionContext`1 interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString), 基础提供程序在 ConnectionString 上失败。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   在 System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   在 System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   在 System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   在 System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   在 System.Data.Entity.Internal.InternalContext.Initialize()
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 GameServer.Services.UserService.OnRegister(NetConnection`1 sender, UserRegisterRequest request) 位置 D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 86
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-01-12 23:39:33,819 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-12 23:39:34,079 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-12 23:39:34,135 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:39:34,135 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:39:34,135 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:39:34,136 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:39:34,136 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:39:34,137 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:39:34,138 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:39:34,141 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:39:34,186 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-12 23:40:03,807 [3] [WARN ] [GameServer] ：Client[127.0.0.1:52787]] Connected
+2025-01-12 23:40:03,865 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-12 23:40:03,996 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:pjh001  Pass:239346
+2025-01-12 23:40:18,189 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2025-01-12 23:40:57,442 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-12 23:40:57,737 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-12 23:40:57,774 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:40:57,774 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:40:57,798 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:40:57,798 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:40:57,798 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:40:57,799 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:40:57,798 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:40:57,798 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:40:57,842 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-12 23:41:20,961 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-12 23:41:21,310 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-12 23:41:21,330 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:41:21,331 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:41:21,362 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:41:21,363 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:41:21,363 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:41:21,363 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:41:21,363 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:41:21,384 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-12 23:41:21,416 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-12 23:41:41,305 [3] [WARN ] [GameServer] ：Client[127.0.0.1:49894]] Connected
+2025-01-12 23:41:41,365 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-12 23:41:41,492 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:pjh001  Pass:123456
+2025-01-12 23:45:21,902 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-12 23:45:21,903 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:pjh001  Pass:123456

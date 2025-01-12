@@ -15,7 +15,7 @@ public class UILogin : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        UserService.Instance.OnLogin = OnLogin;
+        //UserService.Instance.OnLogin = OnLogin;
     }
 
 
@@ -37,7 +37,7 @@ public class UILogin : MonoBehaviour {
             return;
         }
         // Enter Game
-        UserService.Instance.SendLogin(this.username.text,this.password.text);
+        //UserService.Instance.SendLogin(this.username.text,this.password.text);
 
     }
 
@@ -48,7 +48,7 @@ public class UILogin : MonoBehaviour {
             //登录成功，进入角色选择
             //MessageBox.Show("登录成功,准备角色选择" + message,"提示", MessageBoxType.Information);
             SceneManager.Instance.LoadScene("CharSelect");
-
+            
         }
         else
             MessageBox.Show(message, "错误", MessageBoxType.Error);

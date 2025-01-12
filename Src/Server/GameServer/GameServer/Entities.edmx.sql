@@ -2,13 +2,13 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 01/12/2025 02:32:54
+-- Date Created: 01/13/2025 00:46:53
 -- Generated from EDMX file: D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Server\GameServer\GameServer\Entities.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
 GO
-USE [ExtremeWorld];
+USE [MMORPGDB];
 GO
 IF SCHEMA_ID(N'dbo') IS NULL EXECUTE(N'CREATE SCHEMA [dbo]');
 GO
@@ -26,6 +26,9 @@ GO
 IF OBJECT_ID(N'[dbo].[FK_TCharacterTCharacterItem]', 'F') IS NOT NULL
     ALTER TABLE [dbo].[CharacterItem] DROP CONSTRAINT [FK_TCharacterTCharacterItem];
 GO
+IF OBJECT_ID(N'[dbo].[FK_TCharacterTEquipment]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[TEquipments] DROP CONSTRAINT [FK_TCharacterTEquipment];
+GO
 
 -- --------------------------------------------------
 -- Dropping existing tables
@@ -42,6 +45,9 @@ IF OBJECT_ID(N'[dbo].[Characters]', 'U') IS NOT NULL
 GO
 IF OBJECT_ID(N'[dbo].[CharacterItem]', 'U') IS NOT NULL
     DROP TABLE [dbo].[CharacterItem];
+GO
+IF OBJECT_ID(N'[dbo].[TEquipments]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[TEquipments];
 GO
 
 -- --------------------------------------------------

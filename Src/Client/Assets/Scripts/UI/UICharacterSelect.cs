@@ -35,7 +35,8 @@ public class UICharacterSelect : MonoBehaviour
     void Start()
     {
         InitCharacterSelect(true);
-        UserService.Instance.OnCharacterCreate = OnCharacterCreate;
+        //UserService.Instance.OnCharacterCreate = OnCharacterCreate;
+        
     }
 
 
@@ -61,7 +62,7 @@ public class UICharacterSelect : MonoBehaviour
             return;
         }
         InitCharacterSelect(true);
-        UserService.Instance.SendCharacterCreate(this.charName.text, this.charClass);
+        //UserService.Instance.SendCharacterCreate(this.charName.text, this.charClass);
     }
 
     public void OnSelectClass(int charClass)
@@ -147,7 +148,7 @@ public class UICharacterSelect : MonoBehaviour
         if (selectCharacterIdx >= 0)
         {
             //MessageBox.Show("进入游戏", "进入游戏", MessageBoxType.Confirm);
-            UserService.Instance.SendGameEnter(selectCharacterIdx);
+           // UserService.Instance.SendGameEnter(selectCharacterIdx);
         }
     }
 }
