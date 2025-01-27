@@ -4,7 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95993779-4002-47f7-aef1-fd6efff63be3" name="Changes" comment="">
+    <list default="true" id="95993779-4002-47f7-aef1-fd6efff63be3" name="Changes" comment="截止小地图">
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/M1001.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/M1001.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Tga/treasure_skull01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Tga/treasure_skull01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_Atk.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_Atk.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_Death.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_Death.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_Idle.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_Idle.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_Move_Forward.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_Move_Forward.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_SkillA.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_SkillA.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_SkillB.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_SkillB.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/M1002.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/M1002.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/M1002.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/M1002.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/M1002.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/M1002.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Texture.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Texture/MonolithMonsters.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Texture/MonolithMonsters.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Tga/M1002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Tga/M1002.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Log/20250118.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Log/20250120.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Log/20250121.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Log/20250122.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Log/20250123.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Log/20250124.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Log/20250125.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Levels/CharSelect.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/CharSelect.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Levels/Loading.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Loading.unity" afterDir="false" />
@@ -28,6 +65,8 @@
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Character/Warrior.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Character/Warrior.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Character/Wizard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Character/Wizard.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/Minimap/bulinzheng.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/Minimap/bulinzheng.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/Minimap/luorisenl.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/Minimap/luorisenl.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/Minimap/shikongliefeng.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/Minimap/shikongliefeng.PNG.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Entities/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Entities/Character.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameObject/GameObjectManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameObject/GameObjectManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadingManager.cs" afterDir="false" />
@@ -47,7 +86,9 @@
       <change beforePath="$PROJECT_DIR$/Data/CharacterDefine.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/CharacterDefine.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/MapDefine.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/MapDefine.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Data/Data/CharacterDefine.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Data/Data/CharacterDefine.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data/Data/MapDefine.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Data/Data/MapDefine.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Data/Tables/CharacterDefine.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Data/Tables/CharacterDefine.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data/Tables/MapDefine.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Data/Tables/MapDefine.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lib/Common/Data/CharacterDefine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lib/Common/Data/CharacterDefine.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lib/Common/Data/MapDefine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lib/Common/Data/MapDefine.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lib/Common/bin/Debug/Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lib/Common/bin/Debug/Common.dll" afterDir="false" />
@@ -202,7 +243,7 @@
       <workItem from="1737527713391" duration="22624000" />
       <workItem from="1737650275061" duration="6311000" />
       <workItem from="1737700121489" duration="6702000" />
-      <workItem from="1737966182794" duration="8376000" />
+      <workItem from="1737966182794" duration="8699000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -263,7 +304,8 @@
     <MESSAGE value="临时存一下" />
     <MESSAGE value="注册" />
     <MESSAGE value="ignore更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore更新" />
+    <MESSAGE value="截止小地图" />
+    <option name="LAST_COMMIT_MESSAGE" value="截止小地图" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
