@@ -9,8 +9,7 @@ public class UICharacterSelect : MonoBehaviour
 
     public GameObject panelCreate;
     public GameObject panelSelect;
-
-    public GameObject btnCreateCancel;
+    
 
     public InputField charName;
     CharacterClass charClass;
@@ -27,7 +26,7 @@ public class UICharacterSelect : MonoBehaviour
 
     public Text[] names;
 
-    private int selectCharacterIdx = -1;
+    private int selectCharacterIdx = -1; 
 
     public UICharacterView characterView;
 
@@ -35,59 +34,53 @@ public class UICharacterSelect : MonoBehaviour
     void Start()
     {
         InitCharacterSelect(true);
-        //UserService.Instance.OnCharacterCreate = OnCharacterCreate;
-        
+        UserService.Instance.OnCreateCharacter = OnCharacterCreate;
     }
-
-
-    public void InitCharacterCreate()
+    /// <summary>
+    /// 点击角色选择界面的创建角色按钮
+    /// </summary>
+    public void OnClickCreateCharacterBtn()
     {
-        panelCreate.SetActive(true);
         panelSelect.SetActive(false);
-        OnSelectClass(1);
-        Debug.Log("即将创建角色");
+        panelCreate.SetActive(true);
+        //初始化角色类别按钮 战士
+        OnClickCharacterClassBtn(1);
     }
-
-    // Update is called once per frame
     void Update()
     {
 
     }
-
-    public void OnClickCreate()
-    {
-        if (string.IsNullOrEmpty(this.charName.text))
-        {
-            MessageBox.Show("请输入角色名称");
-            return;
-        }
-        InitCharacterSelect(true);
-        //UserService.Instance.SendCharacterCreate(this.charName.text, this.charClass);
-    }
-
-    public void OnSelectClass(int charClass)
+    
+    /// <summary>
+    /// 点击角色创建界面的角色类别按钮
+    /// </summary>
+    /// <param name="charClass">角色类别</param>
+    public void OnClickCharacterClassBtn(int charClass)
     {
         this.charClass = (CharacterClass)charClass;
-
-        characterView.CurrectCharacter = charClass - 1;
-
+        characterView.CurrectCharacter = charClass-1;
         for (int i = 0; i < 3; i++)
         {
-            if (i == charClass - 1)
-            {
-                Debug.Log("角色已选择");
-                titles[i].gameObject.SetActive(true);
-            }
-            else
-                titles[i].gameObject.SetActive(false);
-            names[i].text = DataManager.Instance.Characters[i + 1].Name;
+            titles[i].gameObject.SetActive(i == charClass - 1);
+            names[i].text=DataManager.Instance.Characters[i+1].Name;
         }
-
-        descs.text = DataManager.Instance.Characters[charClass].Description;
-
+        descs.text=DataManager.Instance.Characters[charClass].Description;
     }
 
 
+    /// <summary>
+    /// 点击角色创建界面的进入游戏按钮
+    /// </summary>
+    public void OnClickCreate()
+    {
+        //todo 目前设计是点击创建后创建角色，然后进入角色选择界面，之后优化成直接进入主城
+        if (string.IsNullOrEmpty(charName.text))
+        {
+            MessageBox.Show("请输入角色名称！");
+            return;
+        }
+        UserService.Instance.SendCreateCharacter(charName.text, charClass);
+    }
     void OnCharacterCreate(Result result, string message)
     {
         if (result == Result.Success)
@@ -95,60 +88,54 @@ public class UICharacterSelect : MonoBehaviour
             InitCharacterSelect(true);
         }
         else
+        {
             MessageBox.Show(message, "错误", MessageBoxType.Error);
+        }
     }
     public void InitCharacterSelect(bool init)
     {
-        panelCreate.SetActive(false);
         panelSelect.SetActive(true);
-
+        panelCreate.SetActive(false);
         if (init)
         {
-            foreach (var old in uiChars)
+            foreach (var oldChar in uiChars)
             {
-                Destroy(old);
+                Destroy(oldChar);
             }
             uiChars.Clear();
-
-            for (int i = 0; i < User.Instance.Info.Player.Characters.Count; i++)
+            int count = User.Instance.Info.Player.Characters.Count;
+            for (int i = 0; i < count; i++)
             {
-
-                GameObject go = Instantiate(uiCharInfo, this.uiCharList);
-                UICharInfo chrInfo = go.GetComponent<UICharInfo>();
-                chrInfo.info = User.Instance.Info.Player.Characters[i];
-
-                Button button = go.GetComponent<Button>();
-                int idx = i;
-                button.onClick.AddListener(() =>
-                {
-                    OnSelectCharacter(idx);
-                });
-
+                GameObject go = Instantiate(uiCharInfo, uiCharList);
+                UICharInfo uiChar = go.GetComponent<UICharInfo>();
+                uiChar.info = User.Instance.Info.Player.Characters[i];
+                Button btn = go.GetComponentInChildren<Button>();
+                int index = i;
+                btn.onClick.AddListener(() => { OnSelectCharacter(index); });
                 uiChars.Add(go);
                 go.SetActive(true);
             }
         }
+    
     }
-    public void OnSelectCharacter(int idx)
+    public void OnSelectCharacter(int index)
     {
-        this.selectCharacterIdx = idx;
-        var cha = User.Instance.Info.Player.Characters[idx];
-        Debug.LogFormat("Select Char:[{0}]{1}[{2}]", cha.Id, cha.Name, cha.Class);
-        User.Instance.CurrentCharacter = cha;
-        characterView.CurrectCharacter = ((int)cha.Class - 1);
-
+        selectCharacterIdx = index;
+        var character = User.Instance.Info.Player.Characters[index];
+        Debug.LogFormat("Select Character：[{0}{1}{2}]", character.Id,character.Name,character.Class);
+        characterView.CurrectCharacter = ((int)character.Class - 1);
         for (int i = 0; i < User.Instance.Info.Player.Characters.Count; i++)
         {
-            UICharInfo ci = this.uiChars[i].GetComponent<UICharInfo>();
-            ci.Selected = idx == i;
+            UICharInfo uiChar = uiChars[i].GetComponent<UICharInfo>();
+            uiChar.Selected = i == index;
         }
     }
     public void OnClickPlay()
     {
-        if (selectCharacterIdx >= 0)
+        if (selectCharacterIdx>=0)
         {
-            //MessageBox.Show("进入游戏", "进入游戏", MessageBoxType.Confirm);
-           // UserService.Instance.SendGameEnter(selectCharacterIdx);
+            UserService.Instance.SendGameEnter(selectCharacterIdx);
         }
     }
+    //todo 创建角色界面点击退出，显示角色模型错误
 }

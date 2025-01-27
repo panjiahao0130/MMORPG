@@ -185,6 +185,8 @@ message UserGameEnterRequest
 message UserGameEnterResponse {
 	RESULT result = 1;
 	string errormsg = 2;
+	NCharacterInfo character = 3;
+	
 }
 
 message UserGameLeaveRequest

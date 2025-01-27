@@ -7,19 +7,20 @@ using Common.Data;
 using SkillBridge.Message;
 using Models;
 using System;
+using Entities;
 using Managers;
 
 namespace Services
 {
     class MapService : Singleton<MapService> , IDisposable
     {
-        public int CurrentMapId = 0;
+       
 
+        public int CurrentMapId { get; set; }
         public MapService()
         {
             MessageDistributer.Instance.Subscribe<MapCharacterEnterResponse>(this.OnMapCharacterEnter);
             MessageDistributer.Instance.Subscribe<MapCharacterLeaveResponse>(this.OnMapCharacterLeave);
-            MessageDistributer.Instance.Subscribe<MapEntitySyncResponse>(this.OnMapEntitySync);
         }
 
         
@@ -28,37 +29,38 @@ namespace Services
         {
             MessageDistributer.Instance.Unsubscribe<MapCharacterEnterResponse>(this.OnMapCharacterEnter);
             MessageDistributer.Instance.Unsubscribe<MapCharacterLeaveResponse>(this.OnMapCharacterLeave);
-            MessageDistributer.Instance.Unsubscribe<MapEntitySyncResponse>(this.OnMapEntitySync);
         }
         public void Init()
         {
 
         }
-        private void OnMapCharacterLeave(object sender, MapCharacterLeaveResponse response)
-        {
-            Debug.LogFormat("OnMapCharacterLeave: CharID{0}",response.characterId);
-            if (response.characterId != User.Instance.CurrentCharacter.Id)
-                CharacterManager.Instance.RemoveCharacter(response.characterId);
-            else
-                CharacterManager.Instance.Clear();
-        }
-
         private void OnMapCharacterEnter(object sender, MapCharacterEnterResponse response)
         {
-            Debug.LogFormat("OnMapCharacterEnter : Map:{0}  Count:{1}", response.mapId, response.Characters.Count);
+            Debug.LogFormat("OnMapCharacterEnter:Map:{0} Count:{1}", response.mapId, response.Characters.Count);
             foreach (var cha in response.Characters)
             {
-                if (User.Instance.CurrentCharacter.Id == cha.Id)
-                {
-                    User.Instance.CurrentCharacter = cha;
+                //当前地图没有角色或是进入的角色是当前角色
+                if (User.Instance.CurrentCharacterInfo == null || (cha.Type == CharacterType.Player && User.Instance.CurrentCharacterInfo.Id == cha.Id))
+                {//当前角色切换地图
+                    User.Instance.CurrentCharacterInfo = cha;
+                    if(User.Instance.CurrentCharacter  == null)
+                    {
+                        User.Instance.CurrentCharacter = new Character(cha);
+                    }
+                    CharacterManager.Instance.AddCharacter(User.Instance.CurrentCharacterInfo);
+                    if (CurrentMapId != response.mapId)
+                    {
+                        this.EnterMap(response.mapId);
+                        this.CurrentMapId = response.mapId;
+                    }
+                    continue;
                 }
                 CharacterManager.Instance.AddCharacter(cha);
+                
             }
-            if (CurrentMapId != response.mapId)
-            {
-                this.CurrentMapId = response.mapId;
-                this.EnterMap(response.mapId);
-            }
+            
+            
+           
         }
 
         private void EnterMap(int mapId)
@@ -71,12 +73,16 @@ namespace Services
             }
             else
             {
-                MapDefine map = DataManager.Instance.Maps[mapId];
-                User.Instance.CurrentMapData = map;
-                SceneManager.Instance.LoadScene(map.Resource);
+                Debug.LogErrorFormat("EnterMap: Map:{0} not existed",mapId);
             }
-                //Debug.LogErrorFormat("EnterMap: Map:{0} not existed",mapId);
         }
+
+
+        private void OnMapCharacterLeave(object sender, MapCharacterLeaveResponse response)
+        {
+           
+        }
+        
         public void SendMapEntitySync(EntityEvent entity,NEntity nEntity)
         {
             Debug.LogFormat("MapEntityUpdateRequest : ID:{0} POS:{1} DIR:{2} SPD:{3}",nEntity.Id,nEntity.Position.String(),
@@ -103,7 +109,8 @@ namespace Services
                 //sb.AppendFormat("   [{0}]evt:{1} entity:{2}",entity.Id,entity.Event,entity.Entity.String());
                 //sb.AppendLine();
             }
-            //Debug.Log(sb.ToString());
         }
+            //Debug.Log(sb.ToString());
+        
     }
 }

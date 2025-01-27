@@ -1,0 +1,20 @@
+
+2025-01-18 15:42:04,329 [1] [INFO ] [GameServer] £ºGame Server Init
+2025-01-18 15:42:04,713 [1] [WARN ] [GameServer] £ºStarting Listener...
+2025-01-18 15:42:04,757 [12] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-01-18 15:42:04,757 [11] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-01-18 15:42:04,757 [13] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-01-18 15:42:04,757 [9] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-01-18 15:42:04,757 [7] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-01-18 15:42:04,758 [10] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-01-18 15:42:04,758 [14] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-01-18 15:42:04,782 [8] [WARN ] [GameServer] £ºMessageDistribute thread start
+2025-01-18 15:42:04,821 [1] [WARN ] [GameServer] £ºNetService Started
+2025-01-18 15:43:15,564 [4] [WARN ] [GameServer] £ºClient[127.0.0.1:58322]] Connected
+2025-01-18 15:43:15,617 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:24
+2025-01-18 15:43:15,732 [7] [INFO ] [GameServer] £ºUserRegisterRequest: User:pjh001  Pass:123456
+2025-01-18 15:43:26,704 [4] [WARN ] [GameServer] £ºClient[] DataReceived Len:24
+2025-01-18 15:43:26,704 [8] [INFO ] [GameServer] £ºUserRegisterRequest: User:pjh003  Pass:123456
+2025-01-18 15:43:43,790 [5] [WARN ] [GameServer] £ºClient[] DataReceived Len:24
+2025-01-18 15:43:43,793 [7] [INFO ] [GameServer] £ºUserLoginRequest: User:pjh003  Pass:123456
+2025-01-18 15:44:06,328 [5] [WARN ] [GameServer] £ºClient[] Disconnected

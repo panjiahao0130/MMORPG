@@ -73,3 +73,17 @@ Error Number:4060,State:1,Class:11, 基础提供程序在 Open 上失败。, EntityFramewor
 2025-01-13 00:51:52,490 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
 2025-01-13 00:51:52,631 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:pjh001  Pass:123456
 2025-01-13 00:51:59,547 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-01-13 01:07:00,956 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-13 01:07:01,292 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-13 01:07:01,480 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-13 01:07:01,480 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-13 01:07:01,480 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-13 01:07:01,486 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-13 01:07:01,487 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-13 01:07:01,487 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-13 01:07:01,487 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-13 01:07:01,492 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-13 01:07:01,581 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-13 01:07:36,145 [3] [WARN ] [GameServer] ：Client[127.0.0.1:52167]] Connected
+2025-01-13 01:07:36,210 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-13 01:07:36,341 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:pjh002  Pass:123456

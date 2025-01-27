@@ -16,13 +16,16 @@ namespace GameServer.Services
 
         public UserService()
         {
-            //MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserLoginRequest>(this.OnLogin);
+            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserLoginRequest>(this.OnLogin);
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserRegisterRequest>(this.OnRegister);
-           /* MessageDistributer<NetConnection<NetSession>>.
-                Instance.Subscribe<UserCreateCharacterRequest>(this.OnCharacterCreate);
+            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserCreateCharacterRequest>(this.OnCreateCharacter);
             MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserGameEnterRequest>(this.OnGameEnter);
-            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserGameLeaveRequest>(this.OnGameLeave);*/
+            MessageDistributer<NetConnection<NetSession>>.Instance.Subscribe<UserGameLeaveRequest>(this.OnGameLeave);
         }
+
+        
+
+        
 
         public void Init()
         {
@@ -51,6 +54,7 @@ namespace GameServer.Services
             }
             else
             {
+                //Session当前连进来的用户  session是存储于服务器端的特殊对象，服务器会为每一个游览器(客户端)创建一个唯一的session
                 sender.Session.User = user;
 
                 message.Response.userLogin.Result = Result.Success;
@@ -73,7 +77,7 @@ namespace GameServer.Services
             byte[]  data = PackageHandler.PackMessage(message);
             sender.SendData(data, 0, data.Length);
         }
-
+       
         void OnRegister(NetConnection<NetSession> sender, UserRegisterRequest request)
         {
             Log.InfoFormat("UserRegisterRequest: User:{0}  Pass:{1}", request.User, request.Passward);
@@ -101,10 +105,9 @@ namespace GameServer.Services
             byte[] data = PackageHandler.PackMessage(message);
             sender.SendData(data, 0, data.Length);
         }
-        void OnCharacterCreate(NetConnection<NetSession> sender,UserCreateCharacterRequest request)
+        void OnCreateCharacter(NetConnection<NetSession> sender, UserCreateCharacterRequest request)
         {
-            Log.InfoFormat("UserCharacterRequest: Name:{0}  Class:{1}", request.Name, request.Class);
-
+            Log.InfoFormat("UserCharacterRequest:Name:{0}  Class:{1}", request.Name, request.Class);
             TCharacter character = new TCharacter()
             {
                 Name = request.Name,
@@ -114,18 +117,17 @@ namespace GameServer.Services
                 MapPosX = 5000,
                 MapPosY = 4000,
                 MapPosZ = 820,
+
             };
             character = DBService.Instance.Entities.Characters.Add(character);
             sender.Session.User.Player.Characters.Add(character);
             DBService.Instance.Entities.SaveChanges();
-
             NetMessage message = new NetMessage();
             message.Response = new NetMessageResponse();
             message.Response.createChar = new UserCreateCharacterResponse();
             message.Response.createChar.Result = Result.Success;
             message.Response.createChar.Errormsg = "None";
-
-            foreach (var c in sender.Session.User.Player.Characters)
+            foreach(var c in sender.Session.User.Player.Characters)
             {
                 NCharacterInfo info = new NCharacterInfo();
                 info.Id = c.ID;
@@ -135,14 +137,46 @@ namespace GameServer.Services
                 info.Tid = c.TID;
                 message.Response.createChar.Characters.Add(info);
             }
-
             byte[] data = PackageHandler.PackMessage(message);
             sender.SendData(data, 0, data.Length);
         }
-        void OnGameEnter(NetConnection<NetSession> sender, UserGameEnterRequest request)
+        // 当用户进入游戏时调用
+        private void OnGameEnter(NetConnection<NetSession> sender, UserGameEnterRequest request)
+        {
+            // 获取用户请求的角色
+            TCharacter dbchar = sender.Session.User.Player.Characters.ElementAt(request.characterIdx);
+            // 记录日志
+            Log.InfoFormat("UserGameEnterRequest:characterID:{0}{1} Map:{2}", dbchar.ID, dbchar.Name, dbchar.MapID);
+            // 添加角色到角色管理器
+            Character character = CharacterManager.Instance.AddCharacter(dbchar);
+            // 创建网络消息
+            NetMessage message = new NetMessage();
+            message.Response=new NetMessageResponse();
+            message.Response.gameEnter=new UserGameEnterResponse();
+            // 设置消息结果为成功
+            message.Response.gameEnter.Result = Result.Success;
+            // 设置错误信息为无
+            message.Response.gameEnter.Errormsg = "None";
+            // 打包消息
+            byte[] data = PackageHandler.PackMessage(message);
+            // 发送消息
+            sender.SendData(data, 0, data.Length);
+            // 设置用户会话的角色
+            sender.Session.Character = character;
+            // 角色进入地图
+            MapManager.Instance[dbchar.MapID].CharacterEnter(sender, character); 
+        }
+        private void OnGameLeave(NetConnection<NetSession> sender, UserGameLeaveRequest message)
+        {
+            
+        }
+
+
+
+        /*void OnGameEnter(NetConnection<NetSession> sender, UserGameEnterRequest request)
         {
             TCharacter dbchar = sender.Session.User.Player.Characters.ElementAt(request.characterIdx);
-            Log.InfoFormat("UserGameEnterRequest: characterID:{0}:{1} Map:{2}",dbchar.ID,dbchar.Name,dbchar.MapID);
+            Log.InfoFormat("UserGameEnterRequest: characterID:{0}:{1} Map:{2}", dbchar.ID, dbchar.Name, dbchar.MapID);
             Character character = CharacterManager.Instance.AddCharacter(dbchar);
 
             NetMessage message = new NetMessage();
@@ -152,9 +186,9 @@ namespace GameServer.Services
             message.Response.gameEnter.Errormsg = "None";
 
             byte[] data = PackageHandler.PackMessage(message);
-            sender.SendData(data,0,data.Length);
+            sender.SendData(data, 0, data.Length);
             sender.Session.Character = character;
-            MapManager.Instance[dbchar.MapID].CharacterEnter(sender,character);
+            MapManager.Instance[dbchar.MapID].CharacterEnter(sender, character);
 
         }
         private void OnGameLeave(NetConnection<NetSession> sender, UserGameLeaveRequest request)
@@ -172,7 +206,7 @@ namespace GameServer.Services
 
             byte[] data = PackageHandler.PackMessage(message);
             sender.SendData(data, 0, data.Length);
-        }
+        }*/
 
         public void CharacterLeave(Character character)
         {

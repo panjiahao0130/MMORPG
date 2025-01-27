@@ -33,7 +33,9 @@ namespace GameServer.Managers
         public Character AddCharacter(TCharacter chara)
         {
             Character character = new Character(CharacterType.Player,chara);
+            Log.InfoFormat("AddCharacter: {0}", character.Id);
             this.Characters[chara.ID] = character;
+            Log.InfoFormat("AddCharacter: {0}", character.Id);
             return character;
         }
         public void RemoveCharacter(int chara)

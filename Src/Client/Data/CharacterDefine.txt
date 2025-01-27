@@ -5,7 +5,7 @@
     "Type": "Normal",
     "Class": "WARRIOR",
     "Resource": "Character/Warrior",
-    "Description": "强力，耐打，缺乏机动性的近战勇士",
+    "Description": "充满力量的近战战士",
     "InitLevel": 1,
     "Speed": 300
   },
@@ -15,17 +15,17 @@
     "Type": "Normal",
     "Class": "WIZARD",
     "Resource": "Character/Wizard",
-    "Description": "天生拥有并可以使用神秘力量，潜能极大",
+    "Description": "通过神秘咒术给予敌人高额魔法伤害的魔法师",
     "InitLevel": 1,
     "Speed": 300
   },
   "3": {
     "TID": 3,
-    "Name": "ADC",
+    "Name": "神箭射手",
     "Type": "Normal",
     "Class": "ARCHER",
     "Resource": "Character/Archer",
-    "Description": "普通攻击的伤害很大，所习的技能基本为辅助性技能",
+    "Description": "充满高额输出的远程射手，暴力是她的代名词",
     "InitLevel": 1,
     "Speed": 300
   },

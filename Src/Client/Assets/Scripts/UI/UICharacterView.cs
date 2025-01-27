@@ -36,15 +36,7 @@ public class UICharacterView : MonoBehaviour {
     {
         for(int i=0;i<3;i++)
         {
-            if (i == this.currentCharacter)
-            {
-                Debug.Log("显示调用");
-            }
             characters[i].SetActive(i == this.currentCharacter);
-            if (characters[i].activeSelf)
-            {
-                Debug.Log("角色显示");
-            }
         }
     }
 }

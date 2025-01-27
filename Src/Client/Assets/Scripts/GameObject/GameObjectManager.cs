@@ -65,6 +65,7 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
             Characters[character.entityId] = go;
             UIWorldElementManager.Instance.AddCharacterNameBar(go.transform,character);
             this.InitGameObject(Characters[character.entityId], character);
+            
         }
     }
     private void InitGameObject(GameObject go, Character character)
@@ -81,9 +82,10 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
         PlayerInputController pc = go.GetComponent<PlayerInputController>();
         if (pc != null)
         {
-            if (character.Info.Id == Models.User.Instance.CurrentCharacter.Id)
+            if (character.Info.Id == Models.User.Instance.CurrentCharacterInfo.Id)
             {
-                User.Instance.CurrentCharaterObject = go;
+                User.Instance.CurrentCharacterObject = go;
+                Debug.Log("Current Character Object:" + User.Instance.CurrentCharacterObject);
                 MainPlayerCamera.Instance.player = go;
                 pc.enabled = true;
                 pc.character = character;

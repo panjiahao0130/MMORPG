@@ -33,7 +33,7 @@ namespace GameServer.Services
             MapManager.Instance[sender.Session.Character.Id].UpdateEntity(message.entitySync);
         }
 
-        private void OnMapCharacterEnter(NetConnection<NetSession> sender, MapCharacterEnterRequest message)
+        private void OnMapCharacterEnter(NetConnection<NetSession> sender, MapCharacterEnterRequest request)
         {
             throw new NotImplementedException();
         }

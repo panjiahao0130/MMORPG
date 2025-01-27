@@ -1,0 +1,151 @@
+
+2025-01-22 00:58:08,195 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-22 00:58:08,821 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-22 00:58:08,855 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 00:58:08,856 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 00:58:08,860 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 00:58:08,884 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 00:58:08,884 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 00:58:08,884 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 00:58:08,884 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 00:58:08,884 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 00:58:08,929 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-22 00:58:17,367 [4] [WARN ] [GameServer] ：Client[127.0.0.1:57071]] Connected
+2025-01-22 00:58:17,432 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-22 00:59:44,575 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-22 00:59:44,884 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-22 00:59:44,963 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 00:59:44,963 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 00:59:44,963 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 00:59:44,963 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 00:59:44,964 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 00:59:44,966 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 00:59:44,966 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 00:59:44,969 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 00:59:44,995 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-22 01:00:09,704 [3] [WARN ] [GameServer] ：Client[127.0.0.1:57239]] Connected
+2025-01-22 01:00:09,775 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-22 01:00:09,967 [5] [INFO ] [GameServer] ：UserLoginRequest: User:pjh002  Pass:123456
+2025-01-22 01:00:25,211 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-01-22 01:00:25,214 [5] [INFO ] [GameServer] ：UserGameEnterRequest:characterID:8射手 Map:1
+2025-01-22 01:00:25,270 [5] [ERROR] [GameServer] ：Message handler exception:, 给定关键字不在字典中。, mscorlib,    在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.Managers.MapManager.get_Item(Int32 key) 位置 D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Server\GameServer\GameServer\Managers\MapManager.cs:行号 28
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 167
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-01-22 01:03:24,834 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-22 01:03:25,359 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-01-22 01:03:25,729 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：布林镇
+2025-01-22 01:03:25,741 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：落日森林入口
+2025-01-22 01:03:25,742 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：落日森林深处
+2025-01-22 01:03:25,742 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2025-01-22 01:03:25,742 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：布林镇
+2025-01-22 01:03:25,742 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：落日森林入口
+2025-01-22 01:03:25,742 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：落日森林深处
+2025-01-22 01:03:25,743 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2025-01-22 01:03:25,743 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-22 01:03:25,875 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:03:25,876 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:03:25,875 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:03:25,876 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:03:25,887 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:03:25,888 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:03:25,889 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:03:25,895 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:03:25,953 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-22 01:03:41,051 [3] [WARN ] [GameServer] ：Client[127.0.0.1:63886]] Connected
+2025-01-22 01:03:41,121 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-22 01:03:41,285 [5] [INFO ] [GameServer] ：UserLoginRequest: User:pjh002  Pass:123456
+2025-01-22 01:03:50,672 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-01-22 01:03:50,674 [5] [INFO ] [GameServer] ：UserGameEnterRequest:characterID:8射手 Map:1
+2025-01-22 01:03:50,682 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-01-22 01:18:00,377 [3] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:0
+2025-01-22 01:18:00,378 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-01-22 01:18:12,537 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-22 01:18:12,916 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-01-22 01:18:13,222 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：布林镇
+2025-01-22 01:18:13,226 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：落日森林入口
+2025-01-22 01:18:13,228 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：落日森林深处
+2025-01-22 01:18:13,229 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2025-01-22 01:18:13,229 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：布林镇
+2025-01-22 01:18:13,229 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：落日森林入口
+2025-01-22 01:18:13,229 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：落日森林深处
+2025-01-22 01:18:13,230 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2025-01-22 01:18:13,230 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-22 01:18:13,441 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:18:13,441 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:18:13,442 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:18:13,443 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:18:13,443 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:18:13,447 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:18:13,447 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:18:13,447 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:18:13,545 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-22 01:18:46,692 [3] [WARN ] [GameServer] ：Client[127.0.0.1:63147]] Connected
+2025-01-22 01:18:46,751 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-22 01:18:46,918 [5] [INFO ] [GameServer] ：UserLoginRequest: User:pjh002  Pass:123456
+2025-01-22 01:18:55,882 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-01-22 01:18:55,886 [6] [INFO ] [GameServer] ：UserGameEnterRequest:characterID:9法师 Map:1
+2025-01-22 01:18:55,894 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-01-22 01:35:02,049 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-22 01:35:02,431 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-01-22 01:35:02,632 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：布林镇
+2025-01-22 01:35:02,634 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：落日森林入口
+2025-01-22 01:35:02,634 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：落日森林深处
+2025-01-22 01:35:02,634 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2025-01-22 01:35:02,635 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-22 01:35:02,686 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:35:02,686 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:35:02,686 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:35:02,687 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:35:02,687 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:35:02,687 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:35:02,688 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:35:02,689 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:35:02,745 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-22 01:35:36,504 [3] [WARN ] [GameServer] ：Client[127.0.0.1:64267]] Connected
+2025-01-22 01:35:36,555 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-22 01:35:36,680 [5] [INFO ] [GameServer] ：UserLoginRequest: User:pjh002  Pass:123456
+2025-01-22 01:35:48,709 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-01-22 01:35:48,711 [6] [INFO ] [GameServer] ：UserGameEnterRequest:characterID:8射手 Map:1
+2025-01-22 01:35:48,716 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-01-22 01:46:03,099 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-22 01:46:03,365 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-01-22 01:46:03,541 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：布林镇
+2025-01-22 01:46:03,543 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：落日森林入口
+2025-01-22 01:46:03,543 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：落日森林深处
+2025-01-22 01:46:03,543 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2025-01-22 01:46:03,544 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-22 01:46:03,602 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:46:03,602 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:46:03,602 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:46:03,603 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:46:03,604 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:46:03,607 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:46:03,609 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:46:03,611 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-22 01:46:03,651 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-22 01:46:20,715 [3] [WARN ] [GameServer] ：Client[127.0.0.1:53893]] Connected
+2025-01-22 01:46:20,769 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-22 01:46:20,894 [5] [INFO ] [GameServer] ：UserLoginRequest: User:pjh002  Pass:123456
+2025-01-22 01:46:28,199 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-01-22 01:46:28,201 [5] [INFO ] [GameServer] ：UserGameEnterRequest:characterID:8射手 Map:1
+2025-01-22 01:46:28,206 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-01-22 01:48:58,323 [14] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:0
+2025-01-22 01:48:58,324 [14] [WARN ] [GameServer] ：Client[] Disconnected
+2025-01-22 01:49:12,217 [14] [WARN ] [GameServer] ：Client[127.0.0.1:54195]] Connected
+2025-01-22 01:49:12,273 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-22 01:49:12,273 [5] [INFO ] [GameServer] ：UserLoginRequest: User:pjh002  Pass:123456
+2025-01-22 01:49:16,332 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-01-22 01:49:16,335 [5] [INFO ] [GameServer] ：UserGameEnterRequest:characterID:9法师 Map:1
+2025-01-22 01:49:16,336 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-01-22 01:49:27,389 [13] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:0
+2025-01-22 01:49:27,389 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2025-01-22 01:49:40,694 [16] [WARN ] [GameServer] ：Client[127.0.0.1:54259]] Connected
+2025-01-22 01:49:40,759 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-22 01:49:40,759 [5] [INFO ] [GameServer] ：UserLoginRequest: User:pjh002  Pass:123456
+2025-01-22 01:49:43,995 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-01-22 01:49:43,996 [6] [INFO ] [GameServer] ：UserGameEnterRequest:characterID:11大保健 Map:1
+2025-01-22 01:49:43,997 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-01-22 01:50:53,303 [13] [INFO ] [GameServer] ：CharacterLeave: Map1 characterId:0
+2025-01-22 01:50:53,303 [13] [WARN ] [GameServer] ：Client[] Disconnected

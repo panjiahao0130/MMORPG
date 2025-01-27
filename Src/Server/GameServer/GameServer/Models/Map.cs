@@ -60,7 +60,8 @@ namespace GameServer.Models
 
             NetMessage message = new NetMessage();
             message.Response = new NetMessageResponse();
-            message.Response.mapCharacterEnter = new MapCharacterEnterResponse(); 
+            message.Response.mapCharacterEnter = new MapCharacterEnterResponse();
+            message.Response.mapCharacterEnter.mapId = this.Define.ID;
             message.Response.mapCharacterEnter.Characters.Add(character.Info);
 
             foreach (var kv in this.MapCharacters)
@@ -73,6 +74,7 @@ namespace GameServer.Models
 
             byte[] data = PackageHandler.PackMessage(message);
             conn.SendData(data, 0, data.Length);
+            
         }
 
         void SendCharacterEnterMap(NetConnection<NetSession> conn, NCharacterInfo character)

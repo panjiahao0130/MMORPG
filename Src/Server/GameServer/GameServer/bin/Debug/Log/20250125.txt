@@ -1,0 +1,45 @@
+
+2025-01-25 01:10:22,546 [1] [INFO ] [GameServer] ：Game Server Init
+2025-01-25 01:10:22,920 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-01-25 01:10:23,318 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:1 ：布林镇
+2025-01-25 01:10:23,323 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:2 ：落日森林入口
+2025-01-25 01:10:23,323 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:3 ：落日森林深处
+2025-01-25 01:10:23,324 [1] [INFO ] [GameServer] ：MapManager,Init -> Map:4 ：时空裂缝
+2025-01-25 01:10:23,324 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-01-25 01:10:23,407 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-25 01:10:23,407 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-25 01:10:23,433 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-25 01:10:23,433 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-25 01:10:23,443 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-25 01:10:23,450 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-25 01:10:23,453 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-25 01:10:23,459 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-01-25 01:10:23,544 [1] [WARN ] [GameServer] ：NetService Started
+2025-01-25 01:10:53,260 [14] [WARN ] [GameServer] ：Client[127.0.0.1:56684]] Connected
+2025-01-25 01:10:53,333 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:24
+2025-01-25 01:10:53,520 [5] [INFO ] [GameServer] ：UserLoginRequest: User:pjh003  Pass:123456
+2025-01-25 01:11:00,355 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-01-25 01:11:00,358 [6] [INFO ] [GameServer] ：UserGameEnterRequest:characterID:2火法 Map:1
+2025-01-25 01:11:00,362 [6] [INFO ] [GameServer] ：AddCharacter: 0
+2025-01-25 01:11:00,362 [6] [INFO ] [GameServer] ：AddCharacter: 0
+2025-01-25 01:11:00,364 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-01-25 01:11:40,719 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-01-25 01:11:40,721 [5] [INFO ] [GameServer] ：UserGameEnterRequest:characterID:3龙弓 Map:1
+2025-01-25 01:11:40,722 [5] [INFO ] [GameServer] ：AddCharacter: 0
+2025-01-25 01:11:40,722 [5] [INFO ] [GameServer] ：AddCharacter: 0
+2025-01-25 01:11:40,724 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-01-25 01:11:42,639 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-01-25 01:11:42,640 [5] [INFO ] [GameServer] ：UserGameEnterRequest:characterID:3龙弓 Map:1
+2025-01-25 01:11:42,640 [5] [INFO ] [GameServer] ：AddCharacter: 0
+2025-01-25 01:11:42,640 [5] [INFO ] [GameServer] ：AddCharacter: 0
+2025-01-25 01:11:42,641 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-01-25 01:11:50,632 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-01-25 01:11:50,632 [6] [INFO ] [GameServer] ：UserGameEnterRequest:characterID:2火法 Map:1
+2025-01-25 01:11:50,632 [6] [INFO ] [GameServer] ：AddCharacter: 0
+2025-01-25 01:11:50,633 [6] [INFO ] [GameServer] ：AddCharacter: 0
+2025-01-25 01:11:50,633 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-01-25 01:11:59,565 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2025-01-25 01:11:59,566 [5] [INFO ] [GameServer] ：UserGameEnterRequest:characterID:3龙弓 Map:1
+2025-01-25 01:11:59,566 [5] [INFO ] [GameServer] ：AddCharacter: 0
+2025-01-25 01:11:59,566 [5] [INFO ] [GameServer] ：AddCharacter: 0
+2025-01-25 01:11:59,567 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0

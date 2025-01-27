@@ -26,7 +26,7 @@ namespace Entities
 
         public bool IsPlayer
         {
-            get { return this.Info.Id == Models.User.Instance.CurrentCharacter.Id; }
+            get { return this.Info.Id == Models.User.Instance.CurrentCharacterInfo.Id; }
         }
 
         public Character(NCharacterInfo info) : base(info.Entity)

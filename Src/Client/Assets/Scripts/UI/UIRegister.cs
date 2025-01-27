@@ -55,7 +55,7 @@ public class UIRegister : MonoBehaviour {
     {
         if (result == Result.Success)
         {
-            //登录成功，进入角色选择
+            //注册成功，进入角色登录界面
             MessageBox.Show("注册成功,请登录", "提示", MessageBoxType.Information).OnYes = this.CloseRegister;
         }
         else

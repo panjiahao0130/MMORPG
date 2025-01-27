@@ -20,9 +20,9 @@ namespace Managers
         {
             get
             {
-                if (User.Instance.CurrentCharaterObject == null)
+                if (User.Instance.CurrentCharacterObject == null)
                     return null;
-                return User.Instance.CurrentCharaterObject.transform;
+                return User.Instance.CurrentCharacterObject.transform;
             }
         }
         public Sprite LoadCurrentMinimap()
@@ -34,7 +34,7 @@ namespace Managers
         {
             this.minimapBoundingBox = minimapBoundingBox;
             if (this.minimap != null)
-                this.minimap.UpdateMiniMap();
+                this.minimap.InitMap();
         }
     }
 }

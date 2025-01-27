@@ -12,8 +12,8 @@ public class UIMain : MonoSingleton<UIMain>
     // Start is called before the first frame update
     protected override void OnStart()
     {
-        this.characterName.text = User.Instance.CurrentCharacter.Name;
-        this.characterLevel.text = User.Instance.CurrentCharacter.Level.ToString();
+        this.characterName.text = User.Instance.CurrentCharacterInfo.Name;
+        this.characterLevel.text = User.Instance.CurrentCharacterInfo.Level.ToString();
     }
 
     // Update is called once per frame

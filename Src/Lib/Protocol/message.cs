@@ -354,6 +354,9 @@ namespace SkillBridge.Message
         [global::System.ComponentModel.DefaultValue("")]
         public string Errormsg { get; set; } = "";
 
+        [global::ProtoBuf.ProtoMember(3, Name = @"character")]
+        public NCharacterInfo Character { get; set; }
+
     }
 
     [global::ProtoBuf.ProtoContract()]
