@@ -34,7 +34,7 @@ public class UIMiniMap : MonoBehaviour
     {
         if (playerTransform==null)
         {
-            playerTransform = User.Instance.CurrentCharacterObject.transform;
+            playerTransform = MiniMapManager.Instance.PlayerTransform;
         }
 
         if (minimapBoundinBox == null||playerTransform==null)

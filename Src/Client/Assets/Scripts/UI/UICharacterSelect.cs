@@ -26,7 +26,7 @@ public class UICharacterSelect : MonoBehaviour
 
     public Text[] names;
 
-    private int selectCharacterIdx = -1; 
+    private int selectCharacterIdx = 0; 
 
     public UICharacterView characterView;
 
@@ -102,6 +102,7 @@ public class UICharacterSelect : MonoBehaviour
             {
                 Destroy(oldChar);
             }
+
             uiChars.Clear();
             int count = User.Instance.Info.Player.Characters.Count;
             for (int i = 0; i < count; i++)
@@ -109,14 +110,15 @@ public class UICharacterSelect : MonoBehaviour
                 GameObject go = Instantiate(uiCharInfo, uiCharList);
                 UICharInfo uiChar = go.GetComponent<UICharInfo>();
                 uiChar.info = User.Instance.Info.Player.Characters[i];
-                Button btn = go.GetComponentInChildren<Button>();
+                Button btn = go.GetComponent<Button>();
                 int index = i;
                 btn.onClick.AddListener(() => { OnSelectCharacter(index); });
                 uiChars.Add(go);
                 go.SetActive(true);
             }
+
         }
-    
+
     }
     public void OnSelectCharacter(int index)
     {
@@ -127,7 +129,7 @@ public class UICharacterSelect : MonoBehaviour
         for (int i = 0; i < User.Instance.Info.Player.Characters.Count; i++)
         {
             UICharInfo uiChar = uiChars[i].GetComponent<UICharInfo>();
-            uiChar.Selected = i == index;
+            uiChar.Selected = index == i;
         }
     }
     public void OnClickPlay()

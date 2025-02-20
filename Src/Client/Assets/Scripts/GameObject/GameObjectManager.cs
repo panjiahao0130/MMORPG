@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,12 +9,19 @@ using Services;
 using SkillBridge.Message;
 using Models;
 using Managers;
-using UnityEditor.SceneManagement;
+using Object = UnityEngine.Object;
+
 
 public class GameObjectManager : MonoSingleton<GameObjectManager>
 {
 
     Dictionary<int, GameObject> Characters = new Dictionary<int, GameObject>();
+
+    /*private void Awake()
+    {
+        
+    }*/
+
     protected override void OnStart()
     {
         StartCoroutine(InitGameObjects());
@@ -43,6 +51,11 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
     }
     IEnumerator InitGameObjects()
     {
+        if (CharacterManager.Instance == null)
+        {
+            Debug.LogError("CharacterManager.Instance is null in InitGameObjects");
+            yield break;
+        }
         foreach (var cha in CharacterManager.Instance.Characters.Values)
         {
             CreateCharacterObject(cha);
@@ -52,8 +65,24 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
 
     private void CreateCharacterObject(Character character)
     {
+        /*if (character.Info.Id == User.Instance.CurrentCharacterInfo.Id)
+        {
+            int gameObjectManagerCount = GameObject.FindObjectsOfType<GameObjectManager>().Length;
+            int uiWorldElementManagerCount = GameObject.FindObjectsOfType<UIWorldElementManager>().Length;
+
+            if (gameObjectManagerCount > 1)
+            {
+                Debug.LogError("Multiple instances of GameObjectManager detected for CurrentCharacter's Id: " + character.Info.Id);
+            }
+
+            if (uiWorldElementManagerCount > 1)
+            {
+                Debug.LogError("Multiple instances of UIWorldElementManager detected for CurrentCharacter's Id: " + character.Info.Id);
+            }
+        }*/
         if (!Characters.ContainsKey(character.entityId) || Characters[character.entityId] == null)
         {
+            Debug.LogFormat("Create Character Object for Character[{0}] Name[{1}]", character.entityId, character.Info.Name);
             Object obj = Resloader.Load<Object>(character.Define.Resource);
             if (obj == null)
             {
@@ -61,12 +90,13 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
                 return;
             }
             GameObject go = (GameObject)Instantiate(obj,this.transform);
-            go.name = "Character_" + character.entityId + "_" + character.Info.Name;
+            go.name = "Character_" + character.Info.Id + "_" + character.Info.Name;
             Characters[character.entityId] = go;
             UIWorldElementManager.Instance.AddCharacterNameBar(go.transform,character);
-            this.InitGameObject(Characters[character.entityId], character);
             
         }
+        this.InitGameObject(Characters[character.entityId], character);
+        
     }
     private void InitGameObject(GameObject go, Character character)
     {
@@ -77,12 +107,12 @@ public class GameObjectManager : MonoSingleton<GameObjectManager>
         if (ec != null)
         {
             ec.entity = character;
-            ec.isPlayer = character.IsPlayer;
+            ec.isPlayer = character.IsCurrentPlayer;
         }
         PlayerInputController pc = go.GetComponent<PlayerInputController>();
         if (pc != null)
         {
-            if (character.Info.Id == Models.User.Instance.CurrentCharacterInfo.Id)
+            if (character.IsCurrentPlayer)
             {
                 User.Instance.CurrentCharacterObject = go;
                 Debug.Log("Current Character Object:" + User.Instance.CurrentCharacterObject);

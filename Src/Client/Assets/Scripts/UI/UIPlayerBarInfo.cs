@@ -20,10 +20,14 @@ public class UIPlayerBarInfo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UpdataPlayerName();
+        
         if (owner != null)
             this.transform.position = owner.position + Vector3.up * height;
-        this.transform.forward = Camera.main.transform.forward;
+        if (Camera.main != null)
+        {
+            this.transform.forward = Camera.main.transform.forward;
+        }
+        UpdataPlayerName();
     }
     void UpdataPlayerName()
     {

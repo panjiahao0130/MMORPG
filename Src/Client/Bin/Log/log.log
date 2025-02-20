@@ -1,0 +1,50 @@
+2025-02-20 22:19:17,389 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+
+2025-02-20 22:19:17,397 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+
+
+2025-02-20 22:19:17,397 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :1 reason:Cannot connect to server
+2025-02-20 22:19:17,398 [ 1] INFO  Unity: Connect Server before Send Message!
+2025-02-20 22:19:17,398 [ 1] INFO  Unity: DoConnect
+2025-02-20 22:19:17,398 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2025-02-20 22:19:17,399 [ 1] INFO  Unity: Connect[10] to server 127.0.0.1:8000
+
+2025-02-20 22:19:19,401 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+
+2025-02-20 22:19:19,401 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+
+
+2025-02-20 22:19:19,401 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :1 reason:Cannot connect to server
+2025-02-20 22:19:19,402 [ 1] INFO  Unity: Connect Server before Send Message!
+2025-02-20 22:19:19,551 [ 1] INFO  Unity: DoConnect
+2025-02-20 22:19:19,551 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2025-02-20 22:19:19,551 [ 1] INFO  Unity: Connect[11] to server 127.0.0.1:8000
+
+2025-02-20 22:19:21,553 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+
+2025-02-20 22:19:21,554 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+
+
+2025-02-20 22:19:21,554 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :1 reason:Cannot connect to server
+2025-02-20 22:19:21,554 [ 1] INFO  Unity: Connect Server before Send Message!
+2025-02-20 22:19:21,554 [ 1] INFO  Unity: DoConnect
+2025-02-20 22:19:21,555 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2025-02-20 22:19:21,555 [ 1] INFO  Unity: Connect[12] to server 127.0.0.1:8000
+
+2025-02-20 22:19:23,559 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+
+2025-02-20 22:19:23,559 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。
+
+
+2025-02-20 22:19:23,559 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :1 reason:Cannot connect to server
+2025-02-20 22:19:23,560 [ 1] INFO  Unity: Connect Server before Send Message!
+2025-02-20 22:19:23,602 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2025-02-20 22:19:23,602 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+
+2025-02-20 22:19:23,603 [ 1] INFO  Unity: Character_13_小蛇 OnDestroy :ID:4 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-02-20 22:19:23,603 [ 1] INFO  Unity: Character_3_龙弓 OnDestroy :ID:6 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-02-20 22:19:23,603 [ 1] INFO  Unity: Character_2_火法 OnDestroy :ID:7 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-02-20 22:19:23,603 [ 1] INFO  Unity: Character_4_冰法 OnDestroy :ID:8 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-02-20 22:19:23,603 [ 1] INFO  Unity: Character_12_战士 OnDestroy :ID:9 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-02-20 22:19:23,605 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2025-02-20 22:19:23,605 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 

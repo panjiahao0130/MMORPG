@@ -42,22 +42,29 @@ namespace Managers
         {
             Debug.LogFormat("AddCharacter :{0}:{1},Map:{2},Entity{3}",cha.Id,cha.Name,cha.mapId,cha.Entity.String());
             Character character =new Character(cha);
-            Characters[cha.Id]= character;
+            Characters[cha.EntityId]= character;
+            EntityManager.Instance.AddEntity(character);
             if (OnCharacterEnter!= null)
             {
                 OnCharacterEnter(character);
             }
+            
         }
-        public void RemoveCharacter(int characterId)
+        public void RemoveCharacter(int entityId)
         {
-            Debug.LogFormat("RemoveCharacter :{0}",characterId);
-            if (Characters.ContainsKey(characterId))
+            Debug.LogFormat("RemoveCharacter :{0}",entityId);
+            if (Characters.ContainsKey(entityId))
             {
+                EntityManager.Instance.RemoveEntity(Characters[entityId].Info.Entity);
                 if (OnCharacterLeave!= null)
                 {
-                    OnCharacterLeave(Characters[characterId]);
+                    OnCharacterLeave(Characters[entityId]);
                 }
-                Characters.Remove(characterId);
+                Characters.Remove(entityId);
+            }
+            else
+            {
+                Debug.LogErrorFormat("RemoveCharacter :{0} not found",entityId);
             }
             
         }

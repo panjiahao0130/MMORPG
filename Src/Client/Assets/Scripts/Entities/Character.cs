@@ -26,8 +26,21 @@ namespace Entities
 
         public bool IsPlayer
         {
-            get { return this.Info.Id == Models.User.Instance.CurrentCharacterInfo.Id; }
+            get
+            {
+                return this.Info.Type == CharacterType.Player;
+            }
         }
+
+        public bool IsCurrentPlayer
+        {
+            get
+            {
+                if (!IsPlayer) return false;
+                return this.Info.Id == Models.User.Instance.CurrentCharacter.Id;
+            }
+        }
+        
 
         public Character(NCharacterInfo info) : base(info.Entity)
         {

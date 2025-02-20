@@ -21,6 +21,7 @@ namespace Services
         {
             MessageDistributer.Instance.Subscribe<MapCharacterEnterResponse>(this.OnMapCharacterEnter);
             MessageDistributer.Instance.Subscribe<MapCharacterLeaveResponse>(this.OnMapCharacterLeave);
+            MessageDistributer.Instance.Subscribe<MapEntitySyncResponse>(this.OnMapEntitySync);
         }
 
         
@@ -29,6 +30,7 @@ namespace Services
         {
             MessageDistributer.Instance.Unsubscribe<MapCharacterEnterResponse>(this.OnMapCharacterEnter);
             MessageDistributer.Instance.Unsubscribe<MapCharacterLeaveResponse>(this.OnMapCharacterLeave);
+            MessageDistributer.Instance.Unsubscribe<MapEntitySyncResponse>(this.OnMapEntitySync);
         }
         public void Init()
         {
@@ -36,7 +38,7 @@ namespace Services
         }
         private void OnMapCharacterEnter(object sender, MapCharacterEnterResponse response)
         {
-            Debug.LogFormat("OnMapCharacterEnter:Map:{0} Count:{1}", response.mapId, response.Characters.Count);
+            /*Debug.LogFormat("OnMapCharacterEnter:Map:{0} Count:{1}", response.mapId, response.Characters.Count);
             foreach (var cha in response.Characters)
             {
                 //当前地图没有角色或是进入的角色是当前角色
@@ -47,6 +49,7 @@ namespace Services
                     {
                         User.Instance.CurrentCharacter = new Character(cha);
                     }
+                    //他改了add方法
                     CharacterManager.Instance.AddCharacter(User.Instance.CurrentCharacterInfo);
                     if (CurrentMapId != response.mapId)
                     {
@@ -57,10 +60,21 @@ namespace Services
                 }
                 CharacterManager.Instance.AddCharacter(cha);
                 
+            }*/
+            Debug.LogFormat("OnMapCharacterEnter:Map:{0} Count:{1}", response.mapId, response.Characters.Count);
+            foreach (var cha in response.Characters)
+            {
+                if ((User.Instance.CurrentCharacter == null || cha.Type == CharacterType.Player && User.Instance.CurrentCharacter.Id == cha.Id ))//需要修改成判断当前player,简化
+                {//当前角色切换地图
+                    User.Instance.CurrentCharacter = cha;
+                }
+                CharacterManager.Instance.AddCharacter(cha);
             }
-            
-            
-           
+            if (CurrentMapId != response.mapId)
+            {
+                this.EnterMap(response.mapId);
+                this.CurrentMapId = response.mapId;
+            }
         }
 
         private void EnterMap(int mapId)
@@ -80,37 +94,48 @@ namespace Services
 
         private void OnMapCharacterLeave(object sender, MapCharacterLeaveResponse response)
         {
-           
+            Debug.LogFormat("OnMapCharacterLeave: CharID:{0}", response.entityId);
+            if(response.entityId != User.Instance.CurrentCharacter.EntityId)
+                CharacterManager.Instance.RemoveCharacter(response.entityId);
+            else
+            {
+                CharacterManager.Instance.Clear(); 
+            }
         }
         
-        public void SendMapEntitySync(EntityEvent entity,NEntity nEntity)
+        /// <summary>
+        /// 发送地图实体同步请求
+        /// </summary>
+        /// <param name="entityEvent">实体事件</param>
+        /// <param name="entity">网络实体</param>
+        public void SendMapEntitySync(EntityEvent entityEvent,NEntity entity)
         {
-            Debug.LogFormat("MapEntityUpdateRequest : ID:{0} POS:{1} DIR:{2} SPD:{3}",nEntity.Id,nEntity.Position.String(),
-                nEntity.Direction.String(),nEntity.Speed);
+            /*Debug.LogFormat("MapEntityUpdateRequest : ID:{0} POS:{1} DIR:{2} SPD:{3}",nEntity.Id,nEntity.Position.String(),
+                nEntity.Direction.String(),nEntity.Speed);*/
             NetMessage message = new NetMessage();
             message.Request = new NetMessageRequest();
             message.Request.mapEntitySync = new MapEntitySyncRequest();
             message.Request.mapEntitySync.entitySync = new NEntitySync()
             {
-                Id = nEntity.Id,
-                Event = entity,
-                Entity = nEntity
+                Id = entity.Id,
+                Event = entityEvent,
+                Entity = entity
             };
             NetClient.Instance.SendMessage(message);
         }
         private void OnMapEntitySync(object sender, MapEntitySyncResponse message)
         {
-            //System.Text.StringBuilder sb = new System.Text.StringBuilder();
-            //sb.AppendFormat("MapEntityYpdateResponse: Entitys: {0}",message.entitySyncs.Count);
-            //sb.AppendLine();
+            /*System.Text.StringBuilder sb = new System.Text.StringBuilder();
+            sb.AppendFormat("MapEntityYpdateResponse: Entitys: {0}",message.entitySyncs.Count);
+            sb.AppendLine();*/
             foreach (var entity in message.entitySyncs)
             {
                 EntityManager.Instance.OnEntitySync(entity);
-                //sb.AppendFormat("   [{0}]evt:{1} entity:{2}",entity.Id,entity.Event,entity.Entity.String());
-                //sb.AppendLine();
+                /*sb.AppendFormat("   [{0}]evt:{1} entity:{2}",entity.Id,entity.Event,entity.Entity.String());
+                sb.AppendLine();*/
             }
-        }
             //Debug.Log(sb.ToString());
+        }
         
     }
 }

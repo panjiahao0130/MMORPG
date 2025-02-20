@@ -1,0 +1,60 @@
+{
+  "1": {
+    "TID": 1,
+    "Name": "重装战士",
+    "Type": "Normal",
+    "Class": "WARRIOR",
+    "Resource": "Character/Warrior",
+    "Description": "充满力量的近战战士",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "2": {
+    "TID": 2,
+    "Name": "魔法师",
+    "Type": "Normal",
+    "Class": "WIZARD",
+    "Resource": "Character/Wizard",
+    "Description": "通过神秘咒术给予敌人高额魔法伤害的魔法师",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "3": {
+    "TID": 3,
+    "Name": "神箭射手",
+    "Type": "Normal",
+    "Class": "ARCHER",
+    "Resource": "Character/Archer",
+    "Description": "充满高额输出的远程射手，暴力是她的代名词",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "1001": {
+    "TID": 1001,
+    "Name": "恶鬼",
+    "Type": "Normal",
+    "Class": "WARRIOR",
+    "Resource": "Monster/M1001",
+    "Description": "大量从时空裂缝逃脱的不明生物之一，攻击性一般",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "1002": {
+    "TID": 1002,
+    "Name": "-",
+    "Type": "Normal",
+    "Class": "WIZARD",
+    "Resource": "Monster/M1002",
+    "InitLevel": 1,
+    "Speed": 300
+  },
+  "1003": {
+    "TID": 1003,
+    "Name": "-",
+    "Type": "Normal",
+    "Class": "ARCHER",
+    "Resource": "Monster/M1003",
+    "InitLevel": 1,
+    "Speed": 300
+  }
+}

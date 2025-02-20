@@ -54,6 +54,7 @@ namespace GameServer.Entities
         {
             get
             {
+
                 return entityData;
             }
             set

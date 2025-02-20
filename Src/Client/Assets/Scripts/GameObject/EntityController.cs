@@ -32,6 +32,7 @@ public class EntityController : MonoBehaviour ,IEntityNotify
     {
         if (entity != null)
         {
+            EntityManager.Instance.RegisterEntityChangeNotify(entity.entityId, this);
             this.UpdateTransform();
         }
 
@@ -75,6 +76,20 @@ public class EntityController : MonoBehaviour ,IEntityNotify
         }
     }
 
+    public void OnEntityChanged(Entity entity)
+    {
+        //Debug.LogFormat("OnEntityChanged :ID:{0} POS:{1} DIR:{2} SPD:{3} ", entity.entityId, entity.position, entity.direction, entity.speed);
+    }
+
+
+    public void OnEntityRemoved()
+    {
+        if (UIWorldElementManager.Instance != null)
+            UIWorldElementManager.Instance.RemoveCharacterNameBar(this.transform);
+        Destroy(this.gameObject);
+    }
+
+   
     public void OnEntityEvent(EntityEvent entityEvent)
     {
         switch (entityEvent)
@@ -94,20 +109,5 @@ public class EntityController : MonoBehaviour ,IEntityNotify
                 break;
         }
     }
-
-    public void OnEntityRemoved()
-    {
-        throw new System.NotImplementedException();
-    }
-
-    public void OnEntityChanged(Entity eNtity)
-    {
-        throw new System.NotImplementedException();
-    }
-
-    public void OnEntityEvent(Entity eNtity)
-    {
-        Debug.LogFormat("MapEntityUpdateRequest : ID:{0} POS:{1} DIR:{2} SPD:{3}", eNtity.entityId, eNtity.position,
-                eNtity.direction, eNtity.speed);
-    }
+   
 }

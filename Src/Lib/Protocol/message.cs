@@ -68,6 +68,9 @@ namespace SkillBridge.Message
         [global::ProtoBuf.ProtoMember(8, Name = @"entity")]
         public NEntity Entity { get; set; }
 
+        [global::ProtoBuf.ProtoMember(9, Name = @"entity_id")]
+        public int EntityId { get; set; }
+
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -172,9 +175,6 @@ namespace SkillBridge.Message
 
         [global::ProtoBuf.ProtoMember(9)]
         public MapTeleportRequest mapTeleport { get; set; }
-
-        [global::ProtoBuf.ProtoMember(10)]
-        public FirstTestRequest firstTestRequest { get; set; }
 
     }
 
@@ -419,7 +419,7 @@ namespace SkillBridge.Message
             => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
 
         [global::ProtoBuf.ProtoMember(1)]
-        public int characterId { get; set; }
+        public int entityId { get; set; }
 
     }
 

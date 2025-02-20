@@ -227,7 +227,7 @@ namespace Services
             NetMessage message=new NetMessage();
             message.Request=new NetMessageRequest();
             message.Request.gameEnter=new UserGameEnterRequest();
-            message.Request.gameEnter.characterIdx=selectCharacterIdx;
+            message.Request.gameEnter.characterIdx = selectCharacterIdx;
             NetClient.Instance.SendMessage(message);
         }
         private void OnGameEnter(object sender, UserGameEnterResponse response)
@@ -236,17 +236,24 @@ namespace Services
             if (response.Result == Result.Success)
             {
                 //todo:初始化各种数据
+                User.Instance.CurrentCharacter = response.Character;
             }
         }
        
-        public void SendGameLeave(int selectCharacterIdx)
+        public void SendGameLeave()
         {
-            Debug.LogFormat("OnGameEnter:{0}", selectCharacterIdx);
-            
+            Debug.Log("UserGameLeaveRequest");
+            NetMessage message = new NetMessage();
+            message.Request = new NetMessageRequest();
+            message.Request.gameLeave = new UserGameLeaveRequest();
+            NetClient.Instance.SendMessage(message);
         }
-        private void OnGameLeave(object sender, UserGameLeaveResponse message)
+        private void OnGameLeave(object sender, UserGameLeaveResponse response)
         {
-            throw new NotImplementedException();
+            Debug.LogFormat("OnGameLeave:{0} [{1}]", response.Result, response.Errormsg);
+            MapService.Instance.CurrentMapId = 0;
+            User.Instance.CurrentCharacter = null;
+            Debug.Log("当期地图:清除角色信息");
         }
     }
 }

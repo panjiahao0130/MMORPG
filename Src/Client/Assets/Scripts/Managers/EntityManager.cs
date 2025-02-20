@@ -2,17 +2,16 @@
 using SkillBridge.Message;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Managers
 {
     interface IEntityNotify
     {
         void OnEntityRemoved();
-        void OnEntityChanged(Entity eNtity);
-        void OnEntityEvent(Entity eNtity);
+
+        void OnEntityChanged(Entity entity);
+        void OnEntityEvent(EntityEvent dataEvent);
     }
     class EntityManager : Singleton<EntityManager>
     {
@@ -26,7 +25,7 @@ namespace Managers
         {
             entities[entity.entityId] = entity;
         }
-        public void OnEntityRemoved(NEntity entity)
+        public void RemoveEntity(NEntity entity)
         {
             this.entities.Remove(entity.Id);
             if (notifiers.ContainsKey(entity.Id))
@@ -36,20 +35,24 @@ namespace Managers
             }
         }
 
-        internal void OnEntitySync(NEntitySync entity)
+        public void OnEntitySync(NEntitySync data)
         {
-            Entity eNtity = null;
-            entities.TryGetValue(entity.Id,out eNtity);
-            if (eNtity != null)
+            Entity entity = null;
+            this.entities.TryGetValue(data.Id, out entity);
+            if(entity !=null)
             {
-                if (entity.Entity != null)
-                    eNtity.EntityData = entity.Entity;
-                if (notifiers.ContainsKey(entity.Id))
+                if (data.Entity != null)
                 {
-                    notifiers[eNtity.entityId].OnEntityChanged(eNtity);
-                    notifiers[eNtity.entityId].OnEntityEvent(eNtity);
+                    entity.EntityData = data.Entity;
                 }
+                if (notifiers.ContainsKey(data.Id))
+                {
+                    notifiers[entity.entityId].OnEntityChanged(entity);
+                    notifiers[entity.entityId].OnEntityEvent(data.Event);
+                }
+
             }
+
         }
     }
 }
