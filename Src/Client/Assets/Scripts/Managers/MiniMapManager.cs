@@ -8,14 +8,12 @@ using UnityEngine;
 
 namespace Managers
 {
-    class MiniMapManager : Singleton<MiniMapManager>
+    class MinimapManager : Singleton<MinimapManager>
     {
-        public UIMiniMap minimap;
+        public UIMinimap Minimap;
         private Collider minimapBoundingBox;
-        public Collider MinimapBoundingBox
-        {
-            get { return minimapBoundingBox; }
-        }
+        public Collider MinimapBoundingBox => minimapBoundingBox;
+
         public Transform PlayerTransform
         {
             get
@@ -30,11 +28,13 @@ namespace Managers
             Debug.LogFormat("UI/Minimap/" + User.Instance.CurrentMapData.MiniMap);
             return Resloader.Load<Sprite>("UI/Minimap/"+User.Instance.CurrentMapData.MiniMap);
         }
-        public void UpdateMiniMap(Collider minimapBoundingBox)
+        public void UpdateMinimap(Collider minimapBoundingBox)
         {
             this.minimapBoundingBox = minimapBoundingBox;
-            if (this.minimap != null)
-                this.minimap.InitMap();
+            if (this.Minimap != null)
+                this.Minimap.UpdateMap(); 
+            else
+                Debug.LogError("Minimap is null");
         }
     }
 }

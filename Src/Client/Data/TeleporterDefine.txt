@@ -2,45 +2,137 @@
   "1": {
     "ID": 1,
     "Name": "主城->野外",
+    "MapID": 1,
     "LinkTo": 6,
-    "MapID": 1
+    "Descript": null,
+    "Position": {
+      "X": 700,
+      "Y": 2617,
+      "Z": 1022
+    },
+    "Direction": {
+      "X": 0,
+      "Y": 100,
+      "Z": 0
+    }
   },
   "2": {
     "ID": 2,
-    "Name": "主城->时空裂缝",
+    "Name": "主城->副本",
+    "MapID": 1,
     "LinkTo": 8,
-    "MapID": 1
+    "Descript": null,
+    "Position": {
+      "X": 7375,
+      "Y": 2600,
+      "Z": 1022
+    },
+    "Direction": {
+      "X": 0,
+      "Y": 100,
+      "Z": 0
+    }
   },
   "3": {
     "ID": 3,
     "Name": "主城传入点1",
-    "MapID": 1
+    "MapID": 1,
+    "LinkTo": 0,
+    "Descript": null,
+    "Position": {
+      "X": 1635,
+      "Y": 2562,
+      "Z": 830
+    },
+    "Direction": {
+      "X": 100,
+      "Y": 0,
+      "Z": 0
+    }
   },
   "4": {
     "ID": 4,
-    "Name": "出城传入点2",
-    "MapID": 1
+    "Name": "主城传入点2",
+    "MapID": 1,
+    "LinkTo": 0,
+    "Descript": null,
+    "Position": {
+      "X": 6700,
+      "Y": 2575,
+      "Z": 830
+    },
+    "Direction": {
+      "X": -100,
+      "Y": 0,
+      "Z": 0
+    }
   },
   "5": {
     "ID": 5,
     "Name": "野外->主城",
+    "MapID": 2,
     "LinkTo": 3,
-    "MapID": 2
+    "Descript": null,
+    "Position": {
+      "X": 2168,
+      "Y": 4004,
+      "Z": 335
+    },
+    "Direction": {
+      "X": 0,
+      "Y": 100,
+      "Z": 0
+    }
   },
   "6": {
     "ID": 6,
     "Name": "野外传入点",
-    "MapID": 2
+    "MapID": 2,
+    "LinkTo": 0,
+    "Descript": null,
+    "Position": {
+      "X": 2950,
+      "Y": 3990,
+      "Z": 44
+    },
+    "Direction": {
+      "X": 100,
+      "Y": 0,
+      "Z": 0
+    }
   },
   "7": {
     "ID": 7,
-    "Name": "时空裂缝->主城",
+    "Name": "副本->主城",
+    "MapID": 4,
     "LinkTo": 4,
-    "MapID": 4
+    "Descript": null,
+    "Position": {
+      "X": -2308,
+      "Y": 2292,
+      "Z": 354
+    },
+    "Direction": {
+      "X": 71,
+      "Y": -71,
+      "Z": 0
+    }
   },
   "8": {
     "ID": 8,
-    "Name": "时空裂缝传入点",
-    "MapID": 4
+    "Name": "副本传入点",
+    "MapID": 4,
+    "LinkTo": 0,
+    "Descript": null,
+    "Position": {
+      "X": -2856,
+      "Y": -3338,
+      "Z": -28
+    },
+    "Direction": {
+      "X": 71,
+      "Y": 71,
+      "Z": 0
+    }
   }
 }

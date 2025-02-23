@@ -38,29 +38,6 @@ namespace Services
         }
         private void OnMapCharacterEnter(object sender, MapCharacterEnterResponse response)
         {
-            /*Debug.LogFormat("OnMapCharacterEnter:Map:{0} Count:{1}", response.mapId, response.Characters.Count);
-            foreach (var cha in response.Characters)
-            {
-                //当前地图没有角色或是进入的角色是当前角色
-                if (User.Instance.CurrentCharacterInfo == null || (cha.Type == CharacterType.Player && User.Instance.CurrentCharacterInfo.Id == cha.Id))
-                {//当前角色切换地图
-                    User.Instance.CurrentCharacterInfo = cha;
-                    if(User.Instance.CurrentCharacter  == null)
-                    {
-                        User.Instance.CurrentCharacter = new Character(cha);
-                    }
-                    //他改了add方法
-                    CharacterManager.Instance.AddCharacter(User.Instance.CurrentCharacterInfo);
-                    if (CurrentMapId != response.mapId)
-                    {
-                        this.EnterMap(response.mapId);
-                        this.CurrentMapId = response.mapId;
-                    }
-                    continue;
-                }
-                CharacterManager.Instance.AddCharacter(cha);
-                
-            }*/
             Debug.LogFormat("OnMapCharacterEnter:Map:{0} Count:{1}", response.mapId, response.Characters.Count);
             foreach (var cha in response.Characters)
             {
@@ -136,6 +113,15 @@ namespace Services
             }
             //Debug.Log(sb.ToString());
         }
-        
+
+        public void SendMapTeleport(int teleporterID)
+        {
+            Debug.LogFormat("MapTeleportRequest :teleporterID:{0}", teleporterID);
+            NetMessage message = new NetMessage();
+            message.Request = new NetMessageRequest();
+            message.Request.mapTeleport = new MapTeleportRequest();
+            message.Request.mapTeleport.teleporterId = teleporterID;
+            NetClient.Instance.SendMessage(message);
+        }
     }
 }

@@ -50,13 +50,13 @@ namespace Entities
 
         public void MoveForward()
         {
-            Debug.LogFormat("MoveForward");
+            //Debug.LogFormat("MoveForward");
             this.speed = this.Define.Speed;
         }
 
         public void MoveBack()
         {
-            Debug.LogFormat("MoveBack");
+            //Debug.LogFormat("MoveBack");
             this.speed = -this.Define.Speed;
         }
 

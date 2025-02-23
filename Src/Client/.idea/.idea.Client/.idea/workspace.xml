@@ -7,45 +7,306 @@
     <list default="true" id="95993779-4002-47f7-aef1-fd6efff63be3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Levels/MainCity.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/MainCity.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/References/Protocol.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/References/Protocol.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Levels/Map01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Map01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Levels/Map02.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Map02.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Levels/Map03.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Map03.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/Archer.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/Archer.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/Archer.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/Archer.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/Archer.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/Archer.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/Material #25.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/Material #25.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_AtkA.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_AtkA.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_AtkB.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_AtkB.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_Death.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_Death.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_Hurt.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_Hurt.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_Idle.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_Idle.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_Jump.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_Jump.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_Move_Back.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_Move_Back.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_Move_Forward.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_Move_Forward.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_Move_Left.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_Move_Left.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_Move_Right.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_Move_Right.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_SkillA.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_SkillA.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_SkillB.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/fbx/Archer_SkillB.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/tga/treasure_huntergirl.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/tga/treasure_huntergirl.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/tga/uv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Archer/tga/uv.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/Material #82.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/Material #82.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/Warrior.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/Warrior.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/Warrior.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/Warrior.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_AtkA.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_AtkA.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_AtkB.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_AtkB.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_Damage.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_Damage.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_Death.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_Death.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_Hurt.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_Hurt.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_Idle.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_Idle.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_Move_Forward.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_Move_Forward.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_SkillA.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_SkillA.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_SkillB.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_SkillB.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_SkillC.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_SkillC.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_Standby.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/fbx/Warrior_Standby.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/tga/tietu_1副本.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Warrior/tga/tietu_1副本.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/Materials/wofangyuanchengxiaobing.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/Materials/wofangyuanchengxiaobing.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/Wizard.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/Wizard.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/Wizard.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/Wizard.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/Wizard.fbm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/Wizard.fbm/wofangyuanchengxiaobing.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/Wizard.fbm/wofangyuanchengxiaobing.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_AtkA.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_AtkA.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_AtkB.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_AtkB.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Damage.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Damage.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Death.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Death.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Hurt.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Hurt.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Idle.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Idle.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Jump.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Jump.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Move_Back.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Move_Back.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Move_Forward.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Move_Forward.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Move_Left.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Move_Left.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Move_Right.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Move_Right.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Relax.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Relax.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Run.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Run.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_SkillA.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_SkillA.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_SkillB.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_SkillB.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_SkillC.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_SkillC.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Standby.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/fbx/Wizard_Standby.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/tga/wofangyuanchengxiaobing.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Characters/Wizard/tga/wofangyuanchengxiaobing.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Fbx/M1001_AtkA.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Fbx/M1001_AtkA.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Fbx/M1001_AtkB.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Fbx/M1001_AtkB.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Fbx/M1001_Damage.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Fbx/M1001_Damage.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Fbx/M1001_Death.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Fbx/M1001_Death.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Fbx/M1001_Hurt.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Fbx/M1001_Hurt.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Fbx/M1001_Idle.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Fbx/M1001_Idle.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Fbx/M1001_Move_Forward.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Fbx/M1001_Move_Forward.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Fbx/M1001_SkillA.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Fbx/M1001_SkillA.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/M1001.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/M1001.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/M1001.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/M1001.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Tga/New Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Tga/New Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Tga/treasure_skull01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1001/Tga/treasure_skull01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_Atk.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_Atk.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_Death.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_Death.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_Idle.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_Idle.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_Move_Forward.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_Move_Forward.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_SkillA.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_SkillA.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_SkillB.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Fbx/M1002_SkillB.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/M1002.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/M1002.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/M1002.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/M1002.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/M1002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/M1002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Texture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Texture/MonolithMonsters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Texture/MonolithMonsters.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Tga/M1002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Monsters/M1002/Tga/M1002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/DeliveryNPC.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/DeliveryNPC/DeliveryNPC.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/DeliveryNPC/DeliveryNPC.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/DeliveryNPC/fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/DeliveryNPC/fbx/DeliveryNPC_Idle.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/DeliveryNPC/fbx/DeliveryNPC_Idle.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/DeliveryNPC/fbx/DeliveryNPC_Relax.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/DeliveryNPC/fbx/DeliveryNPC_Relax.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/DeliveryNPC/fbx/DeliveryNPC_Talk.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/DeliveryNPC/fbx/DeliveryNPC_Talk.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/DeliveryNPC/tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/DeliveryNPC/tga/DeliveryNPC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/DeliveryNPC/tga/DeliveryNPC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/TaskNPC.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/TaskNPC/fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/TaskNPC/fbx/taskNPC_Idle.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/TaskNPC/fbx/taskNPC_Idle.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/TaskNPC/fbx/taskNPC_Relax.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/TaskNPC/fbx/taskNPC_Relax.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/TaskNPC/fbx/taskNPC_Talk.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/TaskNPC/fbx/taskNPC_Talk.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/TaskNPC/taskNPC.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/TaskNPC/taskNPC.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/TaskNPC/tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/TaskNPC/tga/taskNPC.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/TaskNPC/tga/taskNPC.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_AtkA.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_AtkA.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_Die.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_Die.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_HuntB.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_HuntB.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_Hurt.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_Hurt.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_Idle.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_Idle.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_Move.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_Move.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_SkillA.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_SkillA.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_SkillB.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_SkillB.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_SkillC.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_SkillC.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/tga/New Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/tga/New Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/treasure_kingskull.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_kingskull/treasure_kingskull.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_poter.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_poter/Treasure_poter.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_poter/Treasure_poter.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_poter/fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_poter/fbx/Treasure_poter_IdleA.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_poter/fbx/Treasure_poter_IdleA.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_poter/fbx/Treasure_poter_Relax.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_poter/fbx/Treasure_poter_Relax.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_poter/fbx/Treasure_poter_Talk.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_poter/fbx/Treasure_poter_Talk.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_poter/tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_poter/tga/treasure_poter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_poter/tga/treasure_poter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/fbx/treasure_redmob_AtkA.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/fbx/treasure_redmob_AtkA.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/fbx/treasure_redmob_AtkB.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/fbx/treasure_redmob_AtkB.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/fbx/treasure_redmob_Damage.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/fbx/treasure_redmob_Damage.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/fbx/treasure_redmob_Death.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/fbx/treasure_redmob_Death.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/fbx/treasure_redmob_Hurt.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/fbx/treasure_redmob_Hurt.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/fbx/treasure_redmob_Idle.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/fbx/treasure_redmob_Idle.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/fbx/treasure_redmob_SkillA.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/fbx/treasure_redmob_SkillA.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/tga/treasure_redmob.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/tga/treasure_redmob.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/treasure_redmob.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NPCs/Treasure_redmob/treasure_redmob.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Objects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Objects/MainPlayerCamera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Objects/MainPlayerCamera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Objects/TreasureBox.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Objects/TreasureBox/TreasureBox.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Objects/TreasureBox/TreasureBox.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Objects/TreasureBox/fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Objects/TreasureBox/fbx/TreasureBox_Open.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Objects/TreasureBox/fbx/TreasureBox_Open.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Objects/TreasureBox/tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Objects/TreasureBox/tga/treasure_box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Objects/TreasureBox/tga/treasure_box.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/References/Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/References/Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/Minimap/luorisenl.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/Minimap/luorisenl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/Minimap/shikongliefeng.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/Minimap/shikongliefeng.PNG.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Entities/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Entities/Character.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Entities/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Entities/Entity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameObject/EntityController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameObject/EntityController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameObject/GameObjectManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameObject/GameObjectManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameObject/MainPlayerCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameObject/MainPlayerCamera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameObject/PlayerInputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameObject/PlayerInputController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/CharacterManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/CharacterManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/EntityManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/EntityManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Network/NetClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Network/NetClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/MiniMapManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/MiniMapManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/MapService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/MapService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/UserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test/Login.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Test/Login.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UICharacterSelect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UICharacterSelect.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIMain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIMain.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIMiniMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIMiniMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIPlayerBarInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIPlayerBarInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIWorldElementManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIWorldElementManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utilities/MonoSingleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utilities/MonoSingleton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIMiniMap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIMiniMap.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TeleporterDefine.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/TeleporterDefine.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lib/Common/Network/MessageDispatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lib/Common/Network/MessageDispatch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data/Data/TeleporterDefine.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Data/Data/TeleporterDefine.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data/Tables/TeleporterDefine.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Data/Tables/TeleporterDefine.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lib/Common/bin/Debug/Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lib/Common/bin/Debug/Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lib/Common/bin/Debug/Protocol.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lib/Common/bin/Debug/Protocol.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lib/Protocol/bin/Debug/Protocol.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lib/Protocol/bin/Debug/Protocol.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lib/Protocol/bin/Debug/protobuf-net.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Lib/Protocol/bin/Debug/protobuf-net.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lib/Protocol/message.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lib/Protocol/message.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lib/proto/message.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../Lib/proto/message.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/Entities/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/Entities/Character.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/Entities/CharacterBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/Entities/CharacterBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/GameServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/GameServer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/Managers/CharacterManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/Managers/CharacterManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/Models/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/Models/Map.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/Services/MapService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/Services/MapService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/Services/UserSerevice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/Services/UserSerevice.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Data/MapDefine.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Data/MapDefine.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Data/TeleporterDefine.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Data/TeleporterDefine.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/GameServer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/GameServer.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Protocol.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/GameServer/GameServer/bin/Debug/Protocol.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,21 +340,34 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fd1f2d6b68944170a1e26ba60f377eca4a00/5b/382eb093/CharacterClass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fd1f2d6b68944170a1e26ba60f377eca4a00/d0/5ce91041/Result.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fd1f2d6b68944170a1e26ba60f377eca4a00/d3/2bce5cee/CharacterState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/UnityProjects/MMORPGDemo/Src/Client/Assets/Levels/Map02.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/UnityProjects/MMORPGDemo/Src/Client/Assets/Levels/Map03.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/WorkSpace/UnityProjects/MMORPGDemo/Src/Client/Assets/Scripts/Entities/Character.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/UnityProjects/MMORPGDemo/Src/Client/Assets/Scripts/Entities/Character.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/WorkSpace/UnityProjects/MMORPGDemo/Src/Client/Assets/Scripts/Entities/Character.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameObject/MapController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameObject/NPCController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameObject/TeleporterObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Test/Login.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/UI/Images.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.8.0/Editor/MenuItems/IapListenerMenu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/GUI/Views/PlayModeTestListGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Scrollbar.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/Layout/GridLayoutGroupTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.10/Editor/TrackedPoseDriver/TrackedPoseDriverEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.10/Runtime/ArmModels/ArmModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.10/Runtime/CameraOffset.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.10/Tests/Runtime/TrackedPoseDriver/TrackedPoseDriverTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Lib/Common/Data/CharacterDefine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Lib/Common/Data/MapDefine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Lib/Common/Data/NpcDefine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Lib/Common/Data/TeleporterDefine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Lib/Common/Log.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Lib/Common/MessageExtend.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Lib/Common/Network/MessageDispatch.cs" root0="SKIP_HIGHLIGHTING" />
@@ -177,10 +451,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="22928">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="25756">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="22928" />
+      <option name="pid" value="25756" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -212,6 +486,7 @@
       <workItem from="1739098409994" duration="18684000" />
       <workItem from="1739362931176" duration="8726000" />
       <workItem from="1739436797180" duration="24632000" />
+      <workItem from="1740061333798" duration="27524000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -261,7 +536,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737990948146</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完成移动同步">
+      <option name="closed" value="true" />
+      <created>1740062045480</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740062045480</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,166 +573,63 @@
     <MESSAGE value="ignore更新" />
     <MESSAGE value="截止小地图" />
     <MESSAGE value="zz" />
-    <option name="LAST_COMMIT_MESSAGE" value="zz" />
+    <MESSAGE value="完成移动同步" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成移动同步" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/GameObject/GameObjectManager.cs</url>
-          <line>82</line>
-          <properties documentPath="D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Client\Assets\Scripts\GameObject\GameObjectManager.cs" initialLine="82" containingFunctionPresentation="Method 'CreateCharacterObject'">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Managers/MinimapManager.cs</url>
+          <line>27</line>
+          <properties documentPath="D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Client\Assets\Scripts\Managers\MinimapManager.cs" initialLine="27" containingFunctionPresentation="Method 'LoadCurrentMinimap'">
             <startOffsets>
-              <option value="2468" />
+              <option value="716" />
             </startOffsets>
             <endOffsets>
-              <option value="2558" />
+              <option value="786" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Services/MapService.cs</url>
-          <line>70</line>
-          <properties documentPath="D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Client\Assets\Scripts\Services\MapService.cs" initialLine="70" containingFunctionPresentation="Method 'OnMapCharacterEnter'">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Managers/MinimapManager.cs</url>
+          <line>34</line>
+          <properties documentPath="D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Client\Assets\Scripts\Managers\MinimapManager.cs" initialLine="34" containingFunctionPresentation="Method 'UpdateMinimap'">
             <startOffsets>
-              <option value="2815" />
+              <option value="1077" />
             </startOffsets>
             <endOffsets>
-              <option value="2859" />
+              <option value="1102" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/GameObject/GameObjectManager.cs</url>
-          <line>43</line>
-          <properties documentPath="D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Client\Assets\Scripts\GameObject\GameObjectManager.cs" initialLine="43" containingFunctionPresentation="Method 'OnCharacterLeave'">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/GameObject/MapController.cs</url>
+          <line>12</line>
+          <properties documentPath="D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Client\Assets\Scripts\GameObject\MapController.cs" initialLine="12" containingFunctionPresentation="Method 'Start'">
             <startOffsets>
-              <option value="1030" />
+              <option value="245" />
             </startOffsets>
             <endOffsets>
-              <option value="1078" />
+              <option value="302" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="24" />
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/UI/UICharacterSelect.cs</url>
-          <line>138</line>
-          <properties documentPath="D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Client\Assets\Scripts\UI\UICharacterSelect.cs" initialLine="142" containingFunctionPresentation="Method 'OnClickPlay'">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/UI/Minimap/UIMinimap.cs</url>
+          <line>27</line>
+          <properties documentPath="D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Client\Assets\Scripts\UI\Minimap\UIMinimap.cs" initialLine="27" containingFunctionPresentation="Method 'UpdateMap'">
             <startOffsets>
-              <option value="3775" />
+              <option value="652" />
             </startOffsets>
             <endOffsets>
-              <option value="3830" />
+              <option value="714" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Services/UserService.cs</url>
-          <line>229</line>
-          <properties documentPath="D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Client\Assets\Scripts\Services\UserService.cs" initialLine="229" containingFunctionPresentation="Method 'SendGameEnter'">
-            <startOffsets>
-              <option value="8519" />
-            </startOffsets>
-            <endOffsets>
-              <option value="8578" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/UI/UICharacterSelect.cs</url>
-          <line>124</line>
-          <properties documentPath="D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Client\Assets\Scripts\UI\UICharacterSelect.cs" initialLine="124" containingFunctionPresentation="Method 'OnSelectCharacter'">
-            <startOffsets>
-              <option value="3198" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3225" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Managers/CharacterManager.cs</url>
-          <line>44</line>
-          <properties documentPath="D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Client\Assets\Scripts\Managers\CharacterManager.cs" initialLine="44" containingFunctionPresentation="Method 'AddCharacter'">
-            <startOffsets>
-              <option value="1134" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1170" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Services/UserService.cs</url>
-          <line>247</line>
-          <properties documentPath="D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Client\Assets\Scripts\Services\UserService.cs" initialLine="247" containingFunctionPresentation="Method 'SendGameLeave'">
-            <startOffsets>
-              <option value="9231" />
-            </startOffsets>
-            <endOffsets>
-              <option value="9286" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/GameObject/GameObjectManager.cs</url>
-          <line>93</line>
-          <properties documentPath="D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Client\Assets\Scripts\GameObject\GameObjectManager.cs" initialLine="93" containingFunctionPresentation="Method 'CreateCharacterObject'">
-            <startOffsets>
-              <option value="3153" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3189" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Services/MapService.cs</url>
-          <line>97</line>
-          <properties documentPath="D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Client\Assets\Scripts\Services\MapService.cs" initialLine="97" containingFunctionPresentation="Method 'OnMapCharacterLeave'">
-            <startOffsets>
-              <option value="3713" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3777" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Managers/CharacterManager.cs</url>
-          <line>33</line>
-          <properties documentPath="D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Client\Assets\Scripts\Managers\CharacterManager.cs" initialLine="33" containingFunctionPresentation="Method 'Clear'">
-            <startOffsets>
-              <option value="743" />
-            </startOffsets>
-            <endOffsets>
-              <option value="768" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Managers/CharacterManager.cs</url>
-          <line>55</line>
-          <properties documentPath="D:\WorkSpace\UnityProjects\MMORPGDemo\Src\Client\Assets\Scripts\Managers\CharacterManager.cs" initialLine="55" containingFunctionPresentation="Method 'RemoveCharacter'">
-            <startOffsets>
-              <option value="1499" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1536" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="33" />
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -37,10 +37,6 @@ namespace GameServer.Managers
             EntityManager.Instance.AddEntity(cha.MapID, character);
             character.Info.EntityId = character.entityId;
             this.Characters[character.entityId] = character;
-            /*for(int i = 0; i < Characters.Count; i++)
-            {
-                Log.InfoFormat("角色列表中有：{0}{1}", Characters[cha.ID].Info.Name, Characters[cha.ID].Info.Id);
-            }*/
             return character;
         }
         public void RemoveCharacter(int chaId)

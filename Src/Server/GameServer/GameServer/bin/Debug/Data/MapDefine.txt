@@ -4,7 +4,7 @@
     "Name": "布林镇",
     "Type": "Normal",
     "SubType": "Normal",
-    "MiniMap": "bulinzheng.png",
+    "MiniMap": "bulinzheng",
     "PKMode": false,
     "Resource": "MainCity"
   },
@@ -13,7 +13,7 @@
     "Name": "落日森林入口",
     "Type": "Normal",
     "SubType": "Normal",
-    "MiniMap": "luorisenl.png",
+    "MiniMap": "luorisenl",
     "PKMode": false,
     "Resource": "Map01"
   },
@@ -22,7 +22,7 @@
     "Name": "落日森林深处",
     "Type": "Normal",
     "SubType": "Normal",
-    "MiniMap": "luorisenl.png",
+    "MiniMap": "luorisenl",
     "PKMode": false,
     "Resource": "Map02"
   },
@@ -31,7 +31,7 @@
     "Name": "时空裂缝",
     "Type": "Normal",
     "SubType": "Normal",
-    "MiniMap": "luoriyuhui.PNG",
+    "MiniMap": "luoriyuhui",
     "PKMode": false,
     "Resource": "Map03"
   }
