@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
-
+using Managers;
 using SkillBridge.Message;
 using ProtoBuf;
 using Services;
@@ -44,6 +44,8 @@ public class LoadingManager : MonoBehaviour {
         UserService.Instance.Init();
 
 
+
+        TestManager.Instance.Init();
         // Fake Loading Simulate
         for (float i = 50; i < 100;)
         {

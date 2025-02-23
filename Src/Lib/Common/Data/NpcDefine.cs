@@ -17,7 +17,6 @@ namespace Common.Data
         None = 0,
         InvokeShop,
         InvokeInstance,
-        InvokeEquipment,
     }
     public class NpcDefine
     {
